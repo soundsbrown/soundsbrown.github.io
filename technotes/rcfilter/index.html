@@ -8,8 +8,8 @@
 	<meta name="theme-color" content="#73573e">
 	<meta name="msapplication-TileColor" content="#73573e">
 <meta itemprop="name" content="RC filters and PWM">
-<meta itemprop="description" content="References: - http://sim.okawa-denshi.jp/en/PWMtool.php - https://playground.arduino.cc/Code/PwmFrequency/ - https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM
-PWM base frequency: - Pins 5 and 6: 62500 Hz - Pins 3, 9, 10, and 11 is 31250 Hz - Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz - Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al. This was not a problem when tested on pin 9, though.">
+<meta itemprop="description" content="References: * http://sim.okawa-denshi.jp/en/PWMtool.php * https://playground.arduino.cc/Code/PwmFrequency/ * https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM
+PWM base frequency: * Pins 5 and 6: 62500 Hz * Pins 3, 9, 10, and 11 is 31250 Hz * Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz * Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al. This was not a problem when tested on pin 9, though.">
 
 
 <meta itemprop="datePublished" content="2020-09-04T15:05:44&#43;02:00" />
@@ -20,16 +20,16 @@ PWM base frequency: - Pins 5 and 6: 62500 Hz - Pins 3, 9, 10, and 11 is 31250 Hz
 
 <meta itemprop="keywords" content="filter,dac,arduino," />
 <meta property="og:title" content="RC filters and PWM" />
-<meta property="og:description" content="References: - http://sim.okawa-denshi.jp/en/PWMtool.php - https://playground.arduino.cc/Code/PwmFrequency/ - https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM
-PWM base frequency: - Pins 5 and 6: 62500 Hz - Pins 3, 9, 10, and 11 is 31250 Hz - Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz - Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al. This was not a problem when tested on pin 9, though." />
+<meta property="og:description" content="References: * http://sim.okawa-denshi.jp/en/PWMtool.php * https://playground.arduino.cc/Code/PwmFrequency/ * https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM
+PWM base frequency: * Pins 5 and 6: 62500 Hz * Pins 3, 9, 10, and 11 is 31250 Hz * Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz * Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al. This was not a problem when tested on pin 9, though." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://soundsbrown.github.io/technotes/rcfilter/" />
 <meta property="article:published_time" content="2020-09-04T15:05:44+02:00" />
 <meta property="article:modified_time" content="2020-09-04T15:05:44+02:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="RC filters and PWM"/>
-<meta name="twitter:description" content="References: - http://sim.okawa-denshi.jp/en/PWMtool.php - https://playground.arduino.cc/Code/PwmFrequency/ - https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM
-PWM base frequency: - Pins 5 and 6: 62500 Hz - Pins 3, 9, 10, and 11 is 31250 Hz - Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz - Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al. This was not a problem when tested on pin 9, though."/>
+<meta name="twitter:description" content="References: * http://sim.okawa-denshi.jp/en/PWMtool.php * https://playground.arduino.cc/Code/PwmFrequency/ * https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM
+PWM base frequency: * Pins 5 and 6: 62500 Hz * Pins 3, 9, 10, and 11 is 31250 Hz * Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz * Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al. This was not a problem when tested on pin 9, though."/>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -81,19 +81,19 @@ PWM base frequency: - Pins 5 and 6: 62500 Hz - Pins 3, 9, 10, and 11 is 31250 Hz
 		<h1>RC filters and PWM</h1>
 		<div class="content">
 			<p>References:
-- <a href="http://sim.okawa-denshi.jp/en/PWMtool.php">http://sim.okawa-denshi.jp/en/PWMtool.php</a>
-- <a href="https://playground.arduino.cc/Code/PwmFrequency/">https://playground.arduino.cc/Code/PwmFrequency/</a>
-- <a href="https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM">https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM</a></p>
+* <a href="http://sim.okawa-denshi.jp/en/PWMtool.php">http://sim.okawa-denshi.jp/en/PWMtool.php</a>
+* <a href="https://playground.arduino.cc/Code/PwmFrequency/">https://playground.arduino.cc/Code/PwmFrequency/</a>
+* <a href="https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM">https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM</a></p>
 
 <p>PWM base frequency:
-- Pins 5 and 6: 62500 Hz
-- Pins 3, 9, 10, and 11 is 31250 Hz
-- Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz
-- Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al. This was not a problem when tested on pin 9, though.</p>
+* Pins 5 and 6: 62500 Hz
+* Pins 3, 9, 10, and 11 is 31250 Hz
+* Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz
+* Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al. This was not a problem when tested on pin 9, though.</p>
 
 <p>Use calculator to find suitable R and C values:
-- R=47Ω and C=2.2μF ⇒ cutoff frequency = 1.5KHz
-- Should be good if the PWM frequency is pushed to the maximum</p>
+* R=47Ω and C=2.2μF ⇒ cutoff frequency = 1.5KHz
+* Should be good if the PWM frequency is pushed to the maximum</p>
 
 		</div>
 	</main>

@@ -18,8 +18,8 @@
       <pubDate>Fri, 04 Sep 2020 15:05:44 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/technotes/rcfilter/</guid>
-      <description>References: - http://sim.okawa-denshi.jp/en/PWMtool.php - https://playground.arduino.cc/Code/PwmFrequency/ - https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM
-PWM base frequency: - Pins 5 and 6: 62500 Hz - Pins 3, 9, 10, and 11 is 31250 Hz - Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz - Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al. This was not a problem when tested on pin 9, though.</description>
+      <description>References: * http://sim.okawa-denshi.jp/en/PWMtool.php * https://playground.arduino.cc/Code/PwmFrequency/ * https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM
+PWM base frequency: * Pins 5 and 6: 62500 Hz * Pins 3, 9, 10, and 11 is 31250 Hz * Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz * Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al. This was not a problem when tested on pin 9, though.</description>
     </item>
     
   </channel>
