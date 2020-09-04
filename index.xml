@@ -41,9 +41,10 @@ Push changes: git push</description>
       <pubDate>Fri, 04 Sep 2020 15:23:02 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/technotes/hugo/</guid>
-      <description>References  https://gohugo.io/getting-started/quick-start/ https://therealmjp.github.io/posts/hello-hugo/ https://gohugo.io/hosting-and-deployment/hosting-on-github/  Site setup Install the EXTENDED VERSION to enable customization of the Hermit theme!
+      <description> References  https://gohugo.io/getting-started/quick-start/ https://therealmjp.github.io/posts/hello-hugo/ https://gohugo.io/hosting-and-deployment/hosting-on-github/  Site setup Install the EXTENDED VERSION to enable customization of the Hermit theme!
 Commands:
- hugo new site soundsbrown cd soundsbrown git init git submodule add https://github.com/Track3/hermit.git themes/hermit echo theme = &amp;ldquo;hermit&amp;rdquo; &amp;gt;&amp;gt; config.toml hugo new posts\hello.md hugo hugo server -D  Some settings need to be copied from themes/hermit/exampleSite/config.toml to your own config.toml</description>
+ hugo new site soundsbrown cd soundsbrown git init git submodule add https://github.com/Track3/hermit.git themes/hermit echo theme = &amp;ldquo;hermit&amp;rdquo; &amp;gt;&amp;gt; config.toml hugo new posts\hello.md hugo hugo server -D  Some settings need to be copied from themes/hermit/exampleSite/config.toml to your own config.toml
+Structure and syntax  Markdown cheat sheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet  </description>
     </item>
     
     <item>
