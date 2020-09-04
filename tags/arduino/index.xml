@@ -7,20 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 28 Oct 2019 21:35:44 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2020 15:05:44 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>LFO</title>
-      <link>https://soundsbrown.github.io/modules/hello/</link>
-      <pubDate>Mon, 28 Oct 2019 21:35:44 +0200</pubDate>
+      <title>RC filters and PWM</title>
+      <link>https://soundsbrown.github.io/technotes/rcfilter/</link>
+      <pubDate>Fri, 04 Sep 2020 15:05:44 +0200</pubDate>
       
-      <guid>https://soundsbrown.github.io/modules/hello/</guid>
-      <description>H2 Hello friends!
-H3 I built an LFO!
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vestibulum sodales varius. In id rutrum ligula. Nulla commodo non lacus in mattis. Suspendisse pretium semper quam non fringilla. Donec maximus augue et porta porttitor. Vivamus vel lobortis magna, eget consectetur odio. Integer sit amet mauris vulputate, venenatis metus porta, finibus diam. Vestibulum risus ante, consequat in auctor condimentum, rutrum in metus. Donec at velit euismod nulla malesuada blandit at quis tellus.</description>
+      <guid>https://soundsbrown.github.io/technotes/rcfilter/</guid>
+      <description>References: - http://sim.okawa-denshi.jp/en/PWMtool.php - https://playground.arduino.cc/Code/PwmFrequency/ - https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM
+PWM base frequency: - Pins 5 and 6: 62500 Hz - Pins 3, 9, 10, and 11 is 31250 Hz - Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz - Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al. This was not a problem when tested on pin 9, though.</description>
     </item>
     
   </channel>

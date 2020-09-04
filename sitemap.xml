@@ -38,6 +38,16 @@
   </url>
   
   <url>
+    <loc>https://soundsbrown.github.io/tags/dac/</loc>
+    <lastmod>2020-09-04T15:23:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/filter/</loc>
+    <lastmod>2020-09-04T15:23:29+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://soundsbrown.github.io/cheats/voltagedivider/</loc>
     <lastmod>2020-09-04T15:23:29+02:00</lastmod>
   </url>
@@ -53,22 +63,17 @@
   </url>
   
   <url>
+    <loc>https://soundsbrown.github.io/tags/arduino/</loc>
+    <lastmod>2020-09-04T15:05:44+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://soundsbrown.github.io/tags/buffer/</loc>
     <lastmod>2020-09-04T15:05:44+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://soundsbrown.github.io/technotes/buffers/</loc>
-    <lastmod>2020-09-04T15:05:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/tags/dac/</loc>
-    <lastmod>2020-09-04T15:05:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/tags/filter/</loc>
     <lastmod>2020-09-04T15:05:44+02:00</lastmod>
   </url>
   
@@ -88,7 +93,7 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/cheats/rcfilter/</loc>
+    <loc>https://soundsbrown.github.io/technotes/rcfilter/</loc>
     <lastmod>2020-09-04T15:05:44+02:00</lastmod>
   </url>
   
