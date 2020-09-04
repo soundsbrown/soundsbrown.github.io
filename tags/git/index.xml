@@ -23,7 +23,7 @@ Remember credentials: git config credential.helper store
 Add files: git add file1 file2 file3
 See local changes: git diff &amp;ndash;cached
 Commit changes: git commit -a -m “Message”
-Push changes git push</description>
+Push changes: git push</description>
     </item>
     
   </channel>
