@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Technotes on SoundsBrown</title>
-    <link>https://soundsbrown.github.io/technotes/</link>
-    <description>Recent content in Technotes on SoundsBrown</description>
+    <title>hugo on SoundsBrown</title>
+    <link>https://soundsbrown.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on SoundsBrown</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Fri, 04 Sep 2020 15:23:02 +0200</lastBuildDate>
     
-	<atom:link href="https://soundsbrown.github.io/technotes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://soundsbrown.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -23,17 +23,6 @@ Site setup Install the EXTENDED VERSION to enable customization of the Hermit th
 Commands:
 hugo new site soundsbrown cd soundsbrown git init git submodule add https://github.com/Track3/hermit.git themes/hermit echo theme = &amp;ldquo;hermit&amp;rdquo; &amp;gt;&amp;gt; config.toml hugo new posts\hello.md hugo server -D hugo
 Some settings need to be copied from themes/hermit/exampleSite/config.toml to your own config.toml</description>
-    </item>
-    
-    <item>
-      <title>Buffers</title>
-      <link>https://soundsbrown.github.io/technotes/buffers/</link>
-      <pubDate>Fri, 04 Sep 2020 15:05:44 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/technotes/buffers/</guid>
-      <description>H2 Hello friends!
-H3 I built an LFO!
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vestibulum sodales varius. In id rutrum ligula. Nulla commodo non lacus in mattis. Suspendisse pretium semper quam non fringilla. Donec maximus augue et porta porttitor. Vivamus vel lobortis magna, eget consectetur odio. Integer sit amet mauris vulputate, venenatis metus porta, finibus diam. Vestibulum risus ante, consequat in auctor condimentum, rutrum in metus. Donec at velit euismod nulla malesuada blandit at quis tellus.</description>
     </item>
     
   </channel>
