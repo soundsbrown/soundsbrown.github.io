@@ -3,17 +3,103 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://soundsbrown.github.io/about/</loc>
-    <lastmod>2019-09-05T10:34:41+02:00</lastmod>
+    <loc>https://soundsbrown.github.io/cheats/</loc>
+    <lastmod>2020-09-04T15:23:29+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://soundsbrown.github.io/</loc>
-    <lastmod>2019-09-05T10:34:41+02:00</lastmod>
+    <lastmod>2020-09-04T15:23:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/cheats/voltagedivider/</loc>
+    <lastmod>2020-09-04T15:23:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/technotes/hugo/</loc>
+    <lastmod>2020-09-04T15:23:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/technotes/</loc>
+    <lastmod>2020-09-04T15:23:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/buffer/</loc>
+    <lastmod>2020-09-04T15:05:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/technotes/buffers/</loc>
+    <lastmod>2020-09-04T15:05:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/dac/</loc>
+    <lastmod>2020-09-04T15:05:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/filter/</loc>
+    <lastmod>2020-09-04T15:05:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/follower/</loc>
+    <lastmod>2020-09-04T15:05:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/isolation/</loc>
+    <lastmod>2020-09-04T15:05:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/opamp/</loc>
+    <lastmod>2020-09-04T15:05:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/cheats/rcfilter/</loc>
+    <lastmod>2020-09-04T15:05:44+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://soundsbrown.github.io/tags/</loc>
+    <lastmod>2020-09-04T15:05:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/arduino/</loc>
+    <lastmod>2019-10-28T21:35:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/modules/hello/</loc>
+    <lastmod>2019-10-28T21:35:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/lfo/</loc>
+    <lastmod>2019-10-28T21:35:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/modules/</loc>
+    <lastmod>2019-10-28T21:35:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/pwm/</loc>
+    <lastmod>2019-10-28T21:35:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/about/</loc>
+    <lastmod>2019-09-05T10:34:41+02:00</lastmod>
   </url>
   
 </urlset>

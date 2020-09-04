@@ -7,10 +7,59 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 05 Sep 2019 10:34:41 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2020 15:23:29 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Voltage dividers</title>
+      <link>https://soundsbrown.github.io/cheats/voltagedivider/</link>
+      <pubDate>Fri, 04 Sep 2020 15:23:29 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/cheats/voltagedivider/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://soundsbrown.github.io/technotes/hugo/</link>
+      <pubDate>Fri, 04 Sep 2020 15:23:02 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/technotes/hugo/</guid>
+      <description>How this site works TBD</description>
+    </item>
+    
+    <item>
+      <title>Buffers</title>
+      <link>https://soundsbrown.github.io/technotes/buffers/</link>
+      <pubDate>Fri, 04 Sep 2020 15:05:44 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/technotes/buffers/</guid>
+      <description>H2 Hello friends!
+H3 I built an LFO!
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vestibulum sodales varius. In id rutrum ligula. Nulla commodo non lacus in mattis. Suspendisse pretium semper quam non fringilla. Donec maximus augue et porta porttitor. Vivamus vel lobortis magna, eget consectetur odio. Integer sit amet mauris vulputate, venenatis metus porta, finibus diam. Vestibulum risus ante, consequat in auctor condimentum, rutrum in metus. Donec at velit euismod nulla malesuada blandit at quis tellus.</description>
+    </item>
+    
+    <item>
+      <title>RC filters</title>
+      <link>https://soundsbrown.github.io/cheats/rcfilter/</link>
+      <pubDate>Fri, 04 Sep 2020 15:05:44 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/cheats/rcfilter/</guid>
+      <description>A what? An RC filter is a low-pass filter consisting of nothing more than a resistor and a capacitor!</description>
+    </item>
+    
+    <item>
+      <title>LFO</title>
+      <link>https://soundsbrown.github.io/modules/hello/</link>
+      <pubDate>Mon, 28 Oct 2019 21:35:44 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/hello/</guid>
+      <description>H2 Hello friends!
+H3 I built an LFO!
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vestibulum sodales varius. In id rutrum ligula. Nulla commodo non lacus in mattis. Suspendisse pretium semper quam non fringilla. Donec maximus augue et porta porttitor. Vivamus vel lobortis magna, eget consectetur odio. Integer sit amet mauris vulputate, venenatis metus porta, finibus diam. Vestibulum risus ante, consequat in auctor condimentum, rutrum in metus. Donec at velit euismod nulla malesuada blandit at quis tellus.</description>
+    </item>
     
     <item>
       <title>About SoundsBrown</title>
@@ -18,7 +67,7 @@
       <pubDate>Thu, 05 Sep 2019 10:34:41 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/about/</guid>
-      <description>Hi! My name is Tom and this is my site!</description>
+      <description>This site is intended as a collection of personal notes regarding my DIY synth projects.</description>
     </item>
     
   </channel>
