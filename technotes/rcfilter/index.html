@@ -9,19 +9,21 @@
 	<meta name="msapplication-TileColor" content="#73573e">
 <meta itemprop="name" content="RC filters and PWM">
 <meta itemprop="description" content="References  R and C value calculator:  http://sim.okawa-denshi.jp/en/PWMtool.php  About Arduino PWM outputs:
- https://playground.arduino.cc/Code/PwmFrequency/ https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM   Arduino PWM PWM base frequency: * Pins 5 and 6: 62500 Hz * Pins 3, 9, 10, and 11 is 31250 Hz * Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz * Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al.">
+ https://playground.arduino.cc/Code/PwmFrequency/ https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM   Arduino PWM PWM base frequency:
+ Pins 5 and 6: 62500 Hz Pins 3, 9, 10, and 11 is 31250 Hz Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al.">
 
 
 <meta itemprop="datePublished" content="2020-09-04T15:05:44&#43;02:00" />
 <meta itemprop="dateModified" content="2020-09-04T15:05:44&#43;02:00" />
-<meta itemprop="wordCount" content="116">
+<meta itemprop="wordCount" content="110">
 
 
 
 <meta itemprop="keywords" content="filter,dac,arduino," />
 <meta property="og:title" content="RC filters and PWM" />
 <meta property="og:description" content="References  R and C value calculator:  http://sim.okawa-denshi.jp/en/PWMtool.php  About Arduino PWM outputs:
- https://playground.arduino.cc/Code/PwmFrequency/ https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM   Arduino PWM PWM base frequency: * Pins 5 and 6: 62500 Hz * Pins 3, 9, 10, and 11 is 31250 Hz * Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz * Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al." />
+ https://playground.arduino.cc/Code/PwmFrequency/ https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM   Arduino PWM PWM base frequency:
+ Pins 5 and 6: 62500 Hz Pins 3, 9, 10, and 11 is 31250 Hz Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://soundsbrown.github.io/technotes/rcfilter/" />
 <meta property="article:published_time" content="2020-09-04T15:05:44+02:00" />
@@ -29,7 +31,8 @@
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="RC filters and PWM"/>
 <meta name="twitter:description" content="References  R and C value calculator:  http://sim.okawa-denshi.jp/en/PWMtool.php  About Arduino PWM outputs:
- https://playground.arduino.cc/Code/PwmFrequency/ https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM   Arduino PWM PWM base frequency: * Pins 5 and 6: 62500 Hz * Pins 3, 9, 10, and 11 is 31250 Hz * Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz * Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al."/>
+ https://playground.arduino.cc/Code/PwmFrequency/ https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM   Arduino PWM PWM base frequency:
+ Pins 5 and 6: 62500 Hz Pins 3, 9, 10, and 11 is 31250 Hz Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al."/>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -100,17 +103,23 @@
 
 <h1 id="arduino-pwm">Arduino PWM<a href="#arduino-pwm" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
 
-<p>PWM base frequency:
-* Pins 5 and 6: 62500 Hz
-* Pins 3, 9, 10, and 11 is 31250 Hz
-* Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz
-* Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al. This was not a problem when tested on pin 9, though.</p>
+<p>PWM base frequency:</p>
+
+<ul>
+<li>Pins 5 and 6: 62500 Hz</li>
+<li>Pins 3, 9, 10, and 11 is 31250 Hz</li>
+<li>Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz</li>
+<li>Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al. This was not a problem when tested on pin 9, though.</li>
+</ul>
 
 <h1 id="rc-filter-values">RC filter values<a href="#rc-filter-values" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
 
-<p>Use calculator to find suitable R and C values, e.g.
-* R=47Ω and C=2.2μF ⇒ cutoff frequency = 1.5KHz
-* Should be good if the PWM frequency is pushed to the maximum</p>
+<p>Use calculator to find suitable R and C values, e.g.</p>
+
+<ul>
+<li>R=47Ω and C=2.2μF ⇒ cutoff frequency = 1.5KHz</li>
+<li>Should be good if the PWM frequency is pushed to the maximum</li>
+</ul>
 
 		</div>
 	</main>
