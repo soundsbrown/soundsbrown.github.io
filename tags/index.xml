@@ -93,32 +93,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>arduino</title>
-      <link>https://soundsbrown.github.io/tags/arduino/</link>
-      <pubDate>Mon, 28 Oct 2019 21:35:44 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/arduino/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>lfo</title>
-      <link>https://soundsbrown.github.io/tags/lfo/</link>
-      <pubDate>Mon, 28 Oct 2019 21:35:44 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/lfo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pwm</title>
-      <link>https://soundsbrown.github.io/tags/pwm/</link>
-      <pubDate>Mon, 28 Oct 2019 21:35:44 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/pwm/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

@@ -93,27 +93,17 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/tags/arduino/</loc>
-    <lastmod>2019-10-28T21:35:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/modules/hello/</loc>
-    <lastmod>2019-10-28T21:35:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/tags/lfo/</loc>
-    <lastmod>2019-10-28T21:35:44+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://soundsbrown.github.io/modules/</loc>
     <lastmod>2019-10-28T21:35:44+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/tags/pwm/</loc>
+    <loc>https://soundsbrown.github.io/modules/lfo/</loc>
+    <lastmod>2019-10-28T21:35:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/modules/modules/</loc>
     <lastmod>2019-10-28T21:35:44+02:00</lastmod>
   </url>
   

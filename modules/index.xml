@@ -13,14 +13,22 @@
     
     
     <item>
-      <title>LFO</title>
-      <link>https://soundsbrown.github.io/modules/hello/</link>
+      <title>Modules</title>
+      <link>https://soundsbrown.github.io/modules/lfo/</link>
       <pubDate>Mon, 28 Oct 2019 21:35:44 +0200</pubDate>
       
-      <guid>https://soundsbrown.github.io/modules/hello/</guid>
-      <description>H2 Hello friends!
-H3 I built an LFO!
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vestibulum sodales varius. In id rutrum ligula. Nulla commodo non lacus in mattis. Suspendisse pretium semper quam non fringilla. Donec maximus augue et porta porttitor. Vivamus vel lobortis magna, eget consectetur odio. Integer sit amet mauris vulputate, venenatis metus porta, finibus diam. Vestibulum risus ante, consequat in auctor condimentum, rutrum in metus. Donec at velit euismod nulla malesuada blandit at quis tellus.</description>
+      <guid>https://soundsbrown.github.io/modules/lfo/</guid>
+      <description>To be documented:
+ LFO FM radio Distance sensor CV source &amp;ldquo;I AM O&amp;rdquo; Wav Trigger sampler Baby10 sequencer  </description>
+    </item>
+    
+    <item>
+      <title>Modules</title>
+      <link>https://soundsbrown.github.io/modules/modules/</link>
+      <pubDate>Mon, 28 Oct 2019 21:35:44 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/modules/</guid>
+      <description>Modules I have built. TBD.</description>
     </item>
     
   </channel>
