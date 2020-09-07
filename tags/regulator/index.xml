@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>regulator on SoundsBrown</title>
+    <link>https://soundsbrown.github.io/tags/regulator/</link>
+    <description>Recent content in regulator on SoundsBrown</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 04 Sep 2020 17:16:11 +0200</lastBuildDate>
+    
+	<atom:link href="https://soundsbrown.github.io/tags/regulator/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Power supplies and connectors</title>
+      <link>https://soundsbrown.github.io/cheats/power/</link>
+      <pubDate>Fri, 04 Sep 2020 17:16:11 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/cheats/power/</guid>
+      <description> ATX Eurorack My power bus Voltage regulators </description>
+    </item>
+    
+  </channel>
+</rss>

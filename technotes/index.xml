@@ -39,7 +39,7 @@ Structure and syntax  Markdown cheat sheet: https://github.com/adam-p/markdown-h
     </item>
     
     <item>
-      <title>Buffers</title>
+      <title>Buffers and isolation between modules</title>
       <link>https://soundsbrown.github.io/technotes/buffers/</link>
       <pubDate>Fri, 04 Sep 2020 15:05:44 +0200</pubDate>
       

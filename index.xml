@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Power supplies and connectors</title>
+      <link>https://soundsbrown.github.io/cheats/power/</link>
+      <pubDate>Fri, 04 Sep 2020 17:16:11 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/cheats/power/</guid>
+      <description> ATX Eurorack My power bus Voltage regulators </description>
+    </item>
+    
+    <item>
       <title>Github</title>
       <link>https://soundsbrown.github.io/technotes/github/</link>
       <pubDate>Fri, 04 Sep 2020 15:57:57 +0200</pubDate>
@@ -57,7 +66,7 @@ Structure and syntax  Markdown cheat sheet: https://github.com/adam-p/markdown-h
     </item>
     
     <item>
-      <title>Buffers</title>
+      <title>Buffers and isolation between modules</title>
       <link>https://soundsbrown.github.io/technotes/buffers/</link>
       <pubDate>Fri, 04 Sep 2020 15:05:44 +0200</pubDate>
       
