@@ -93,12 +93,12 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/tags/dac/</loc>
+    <loc>https://soundsbrown.github.io/tags/divider/</loc>
     <lastmod>2020-09-04T15:23:29+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/tags/filter/</loc>
+    <loc>https://soundsbrown.github.io/tags/potentiometer/</loc>
     <lastmod>2020-09-04T15:23:29+02:00</lastmod>
   </url>
   
@@ -134,6 +134,16 @@
   
   <url>
     <loc>https://soundsbrown.github.io/technotes/buffers/</loc>
+    <lastmod>2020-09-04T15:05:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/dac/</loc>
+    <lastmod>2020-09-04T15:05:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/filter/</loc>
     <lastmod>2020-09-04T15:05:44+02:00</lastmod>
   </url>
   
