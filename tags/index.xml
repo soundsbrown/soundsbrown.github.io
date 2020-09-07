@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 07 Sep 2020 12:33:34 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2020 12:40:02 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>eurorack</title>
+      <link>https://soundsbrown.github.io/tags/eurorack/</link>
+      <pubDate>Mon, 07 Sep 2020 12:40:02 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/eurorack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>keystep</title>
+      <link>https://soundsbrown.github.io/tags/keystep/</link>
+      <pubDate>Mon, 07 Sep 2020 12:40:02 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/keystep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>microbrute</title>
+      <link>https://soundsbrown.github.io/tags/microbrute/</link>
+      <pubDate>Mon, 07 Sep 2020 12:40:02 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/microbrute/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>neutron</title>
+      <link>https://soundsbrown.github.io/tags/neutron/</link>
+      <pubDate>Mon, 07 Sep 2020 12:40:02 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/neutron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>voltage</title>
+      <link>https://soundsbrown.github.io/tags/voltage/</link>
+      <pubDate>Mon, 07 Sep 2020 12:40:02 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/voltage/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ampere</title>
@@ -63,15 +108,6 @@
       <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/tags/volt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>voltage</title>
-      <link>https://soundsbrown.github.io/tags/voltage/</link>
-      <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/voltage/</guid>
       <description></description>
     </item>
     
@@ -130,15 +166,6 @@
     </item>
     
     <item>
-      <title>eurorack</title>
-      <link>https://soundsbrown.github.io/tags/eurorack/</link>
-      <pubDate>Fri, 04 Sep 2020 17:16:11 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/eurorack/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>psu</title>
       <link>https://soundsbrown.github.io/tags/psu/</link>
       <pubDate>Fri, 04 Sep 2020 17:16:11 +0200</pubDate>
@@ -162,33 +189,6 @@
       <pubDate>Fri, 04 Sep 2020 15:57:57 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>github</title>
-      <link>https://soundsbrown.github.io/tags/github/</link>
-      <pubDate>Fri, 04 Sep 2020 15:57:57 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>divider</title>
-      <link>https://soundsbrown.github.io/tags/divider/</link>
-      <pubDate>Fri, 04 Sep 2020 15:23:29 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/divider/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>potentiometer</title>
-      <link>https://soundsbrown.github.io/tags/potentiometer/</link>
-      <pubDate>Fri, 04 Sep 2020 15:23:29 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/potentiometer/</guid>
       <description></description>
     </item>
     

@@ -3,6 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://soundsbrown.github.io/tags/eurorack/</loc>
+    <lastmod>2020-09-07T12:40:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/keystep/</loc>
+    <lastmod>2020-09-07T12:40:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/microbrute/</loc>
+    <lastmod>2020-09-07T12:40:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/neutron/</loc>
+    <lastmod>2020-09-07T12:40:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/</loc>
+    <lastmod>2020-09-07T12:40:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/technotes/synth_voltage/</loc>
+    <lastmod>2020-09-07T12:40:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/</loc>
+    <lastmod>2020-09-07T12:40:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/technotes/</loc>
+    <lastmod>2020-09-07T12:40:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/voltage/</loc>
+    <lastmod>2020-09-07T12:40:02+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://soundsbrown.github.io/tags/ampere/</loc>
     <lastmod>2020-09-07T12:33:34+02:00</lastmod>
   </url>
@@ -38,22 +83,7 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/</loc>
-    <lastmod>2020-09-07T12:33:34+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/tags/</loc>
-    <lastmod>2020-09-07T12:33:34+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://soundsbrown.github.io/tags/volt/</loc>
-    <lastmod>2020-09-07T12:33:34+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/tags/voltage/</loc>
     <lastmod>2020-09-07T12:33:34+02:00</lastmod>
   </url>
   
@@ -93,11 +123,6 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/tags/eurorack/</loc>
-    <lastmod>2020-09-04T17:16:11+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://soundsbrown.github.io/cheats/power/</loc>
     <lastmod>2020-09-04T17:16:11+02:00</lastmod>
   </url>
@@ -124,11 +149,6 @@
   
   <url>
     <loc>https://soundsbrown.github.io/tags/github/</loc>
-    <lastmod>2020-09-04T15:57:57+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/technotes/</loc>
     <lastmod>2020-09-04T15:57:57+02:00</lastmod>
   </url>
   
@@ -173,11 +193,6 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/technotes/buffers/</loc>
-    <lastmod>2020-09-04T15:05:44+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://soundsbrown.github.io/tags/dac/</loc>
     <lastmod>2020-09-04T15:05:44+02:00</lastmod>
   </url>
@@ -194,6 +209,11 @@
   
   <url>
     <loc>https://soundsbrown.github.io/tags/isolation/</loc>
+    <lastmod>2020-09-04T15:05:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/technotes/buffers/</loc>
     <lastmod>2020-09-04T15:05:44+02:00</lastmod>
   </url>
   
