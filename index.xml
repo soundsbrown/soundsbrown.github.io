@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 04 Sep 2020 15:57:57 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2020 09:28:04 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Resistor and capacitor codes</title>
+      <link>https://soundsbrown.github.io/cheats/rccodes/</link>
+      <pubDate>Mon, 07 Sep 2020 09:28:04 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/cheats/rccodes/</guid>
+      <description> Resistor color codes Capacitor codes </description>
+    </item>
     
     <item>
       <title>Github</title>
