@@ -7,10 +7,82 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 07 Sep 2020 09:28:04 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2020 12:33:34 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ampere</title>
+      <link>https://soundsbrown.github.io/tags/ampere/</link>
+      <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/ampere/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>current</title>
+      <link>https://soundsbrown.github.io/tags/current/</link>
+      <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/current/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ohm</title>
+      <link>https://soundsbrown.github.io/tags/ohm/</link>
+      <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/ohm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>power</title>
+      <link>https://soundsbrown.github.io/tags/power/</link>
+      <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/power/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>resistance</title>
+      <link>https://soundsbrown.github.io/tags/resistance/</link>
+      <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/resistance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>volt</title>
+      <link>https://soundsbrown.github.io/tags/volt/</link>
+      <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/volt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>voltage</title>
+      <link>https://soundsbrown.github.io/tags/voltage/</link>
+      <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/voltage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>watt</title>
+      <link>https://soundsbrown.github.io/tags/watt/</link>
+      <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/watt/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>capacitor</title>
@@ -67,15 +139,6 @@
     </item>
     
     <item>
-      <title>power</title>
-      <link>https://soundsbrown.github.io/tags/power/</link>
-      <pubDate>Fri, 04 Sep 2020 17:16:11 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/power/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>psu</title>
       <link>https://soundsbrown.github.io/tags/psu/</link>
       <pubDate>Fri, 04 Sep 2020 17:16:11 +0200</pubDate>
@@ -126,69 +189,6 @@
       <pubDate>Fri, 04 Sep 2020 15:23:29 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/tags/potentiometer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://soundsbrown.github.io/tags/hugo/</link>
-      <pubDate>Fri, 04 Sep 2020 15:23:02 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>markdown</title>
-      <link>https://soundsbrown.github.io/tags/markdown/</link>
-      <pubDate>Fri, 04 Sep 2020 15:23:02 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>arduino</title>
-      <link>https://soundsbrown.github.io/tags/arduino/</link>
-      <pubDate>Fri, 04 Sep 2020 15:05:44 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/arduino/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>buffer</title>
-      <link>https://soundsbrown.github.io/tags/buffer/</link>
-      <pubDate>Fri, 04 Sep 2020 15:05:44 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/buffer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dac</title>
-      <link>https://soundsbrown.github.io/tags/dac/</link>
-      <pubDate>Fri, 04 Sep 2020 15:05:44 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/dac/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>filter</title>
-      <link>https://soundsbrown.github.io/tags/filter/</link>
-      <pubDate>Fri, 04 Sep 2020 15:05:44 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/filter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>follower</title>
-      <link>https://soundsbrown.github.io/tags/follower/</link>
-      <pubDate>Fri, 04 Sep 2020 15:05:44 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/follower/</guid>
       <description></description>
     </item>
     
