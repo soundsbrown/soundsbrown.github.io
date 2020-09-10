@@ -36,7 +36,8 @@
       <pubDate>Fri, 04 Sep 2020 15:05:44 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/technotes/buffers/</guid>
-      <description> Circuit Op amps    Op amp Pinout     LM741    TL072TL082    TL074TL084LM324     Example use References  https://www.electronics-tutorials.ws/opamp/opamp_3.html https://circuitdigest.com/electronic-circuits/voltage-follower-circuit-using-op-amp https://www.quora.com/What-is-a-good-modern-substitute-for-the-venerable-741-op-amp-particularly-for-hobbyist-use-and-considering-things-like-price-availability-robustness-ease-of-use-etc  </description>
+      <description>Circuit Op amps Pinouts    Op amp Pinout     LM741    TL072TL082    TL074TL084LM324     Application notes Supply voltage is important:
+ All tested amps max out at somewhere between 3V and 4V when using a 5V supply. Use 12V and put other components (e.g. Arduino) behind a regulator! When using unipolar (0-12V) supply:  LM741 floors at 2V or so &amp;ndash; anything below that gets clamped.</description>
     </item>
     
   </channel>

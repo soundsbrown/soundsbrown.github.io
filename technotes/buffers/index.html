@@ -8,25 +8,28 @@
 	<meta name="theme-color" content="#73573e">
 	<meta name="msapplication-TileColor" content="#73573e">
 <meta itemprop="name" content="Op amps as buffers / voltage followers">
-<meta itemprop="description" content=" Circuit Op amps    Op amp Pinout     LM741    TL072TL082    TL074TL084LM324     Example use References  https://www.electronics-tutorials.ws/opamp/opamp_3.html https://circuitdigest.com/electronic-circuits/voltage-follower-circuit-using-op-amp https://www.quora.com/What-is-a-good-modern-substitute-for-the-venerable-741-op-amp-particularly-for-hobbyist-use-and-considering-things-like-price-availability-robustness-ease-of-use-etc  ">
+<meta itemprop="description" content="Circuit Op amps Pinouts    Op amp Pinout     LM741    TL072TL082    TL074TL084LM324     Application notes Supply voltage is important:
+ All tested amps max out at somewhere between 3V and 4V when using a 5V supply. Use 12V and put other components (e.g. Arduino) behind a regulator! When using unipolar (0-12V) supply:  LM741 floors at 2V or so &ndash; anything below that gets clamped.">
 
 
 <meta itemprop="datePublished" content="2020-09-04T15:05:44&#43;02:00" />
 <meta itemprop="dateModified" content="2020-09-04T15:05:44&#43;02:00" />
-<meta itemprop="wordCount" content="15">
+<meta itemprop="wordCount" content="90">
 
 
 
 <meta itemprop="keywords" content="opamp,buffer,voltage,follower,isolation," />
 <meta property="og:title" content="Op amps as buffers / voltage followers" />
-<meta property="og:description" content=" Circuit Op amps    Op amp Pinout     LM741    TL072TL082    TL074TL084LM324     Example use References  https://www.electronics-tutorials.ws/opamp/opamp_3.html https://circuitdigest.com/electronic-circuits/voltage-follower-circuit-using-op-amp https://www.quora.com/What-is-a-good-modern-substitute-for-the-venerable-741-op-amp-particularly-for-hobbyist-use-and-considering-things-like-price-availability-robustness-ease-of-use-etc  " />
+<meta property="og:description" content="Circuit Op amps Pinouts    Op amp Pinout     LM741    TL072TL082    TL074TL084LM324     Application notes Supply voltage is important:
+ All tested amps max out at somewhere between 3V and 4V when using a 5V supply. Use 12V and put other components (e.g. Arduino) behind a regulator! When using unipolar (0-12V) supply:  LM741 floors at 2V or so &ndash; anything below that gets clamped." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://soundsbrown.github.io/technotes/buffers/" />
 <meta property="article:published_time" content="2020-09-04T15:05:44+02:00" />
 <meta property="article:modified_time" content="2020-09-04T15:05:44+02:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Op amps as buffers / voltage followers"/>
-<meta name="twitter:description" content=" Circuit Op amps    Op amp Pinout     LM741    TL072TL082    TL074TL084LM324     Example use References  https://www.electronics-tutorials.ws/opamp/opamp_3.html https://circuitdigest.com/electronic-circuits/voltage-follower-circuit-using-op-amp https://www.quora.com/What-is-a-good-modern-substitute-for-the-venerable-741-op-amp-particularly-for-hobbyist-use-and-considering-things-like-price-availability-robustness-ease-of-use-etc  "/>
+<meta name="twitter:description" content="Circuit Op amps Pinouts    Op amp Pinout     LM741    TL072TL082    TL074TL084LM324     Application notes Supply voltage is important:
+ All tested amps max out at somewhere between 3V and 4V when using a 5V supply. Use 12V and put other components (e.g. Arduino) behind a regulator! When using unipolar (0-12V) supply:  LM741 floors at 2V or so &ndash; anything below that gets clamped."/>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -85,6 +88,8 @@
 
 <h2 id="op-amps">Op amps<a href="#op-amps" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
 
+<h3 id="pinouts">Pinouts<a href="#pinouts" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+
 <table>
 <thead>
 <tr>
@@ -110,6 +115,21 @@
 </tr>
 </tbody>
 </table>
+
+<h3 id="application-notes">Application notes<a href="#application-notes" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+
+<p>Supply voltage is important:</p>
+
+<ul>
+<li>All tested amps max out at somewhere between 3V and 4V when using a 5V supply. Use 12V and put other components (e.g. Arduino) behind a regulator!</li>
+<li>When using unipolar (0-12V) supply:
+
+<ul>
+<li>LM741 floors at 2V or so &ndash; anything below that gets clamped.</li>
+<li>TL07x inverts below 1.5V or so (i.e. <code>X</code> turns into <code>12V - X</code> when <code>X &lt; 1.5V</code>)</li>
+<li>TL08x and LM32x both seem very reliable</li>
+</ul></li>
+</ul>
 
 <h2 id="example-use">Example use<a href="#example-use" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
 
