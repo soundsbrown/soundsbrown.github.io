@@ -7,10 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 11 Sep 2020 16:35:28 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2020 21:21:09 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Optocouplers</title>
+      <link>https://soundsbrown.github.io/technotes/optocouplers/</link>
+      <pubDate>Tue, 15 Sep 2020 21:21:09 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/technotes/optocouplers/</guid>
+      <description>Example circuits From the interwebs: Tested locally: 4N25 Test with circuit above suggests decay time of ~20ms after switching off. Input (J1) was square wave from LFO, output (J2) was to oscilloscope. Not great, but probably good enough for things like 1 PPS clock signals (200 BPM == 300 msec/beat).
+H11L1 Didn&amp;rsquo;t want to play along &amp;ndash; to be investigated.</description>
+    </item>
+    
+    <item>
+      <title>Isolation</title>
+      <link>https://soundsbrown.github.io/technotes/isolation/</link>
+      <pubDate>Fri, 11 Sep 2020 22:43:45 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/technotes/isolation/</guid>
+      <description> How do we make sure two interconnected modules don&amp;rsquo;t adversely affect one another?
+General  Pass I/O connectors through diodes before they connect to the circuit. Use an opamp, see buffers.  Digital signals  Optocouplers.  Dealing with differences in operating voltage  Voltage dividers. Regulators.  </description>
+    </item>
     
     <item>
       <title>RGB LEDs</title>

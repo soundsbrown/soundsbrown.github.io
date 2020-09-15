@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>opamp on SoundsBrown</title>
-    <link>https://soundsbrown.github.io/tags/opamp/</link>
-    <description>Recent content in opamp on SoundsBrown</description>
+    <title>optoisolator on SoundsBrown</title>
+    <link>https://soundsbrown.github.io/tags/optoisolator/</link>
+    <description>Recent content in optoisolator on SoundsBrown</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Fri, 11 Sep 2020 22:43:45 +0200</lastBuildDate>
     
-	<atom:link href="https://soundsbrown.github.io/tags/opamp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://soundsbrown.github.io/tags/optoisolator/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <guid>https://soundsbrown.github.io/technotes/isolation/</guid>
       <description> How do we make sure two interconnected modules don&amp;rsquo;t adversely affect one another?
 General  Pass I/O connectors through diodes before they connect to the circuit. Use an opamp, see buffers.  Digital signals  Optocouplers.  Dealing with differences in operating voltage  Voltage dividers. Regulators.  </description>
-    </item>
-    
-    <item>
-      <title>Op amps as buffers / voltage followers</title>
-      <link>https://soundsbrown.github.io/technotes/buffers/</link>
-      <pubDate>Fri, 04 Sep 2020 15:05:44 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/technotes/buffers/</guid>
-      <description>Circuit Op amps Pinouts    Op amp Pinout     LM741    TL072TL082    TL074TL084LM324     Application notes Supply voltage is important:
- All tested amps max out at somewhere between 3V and 4V when using a 5V supply. Use 12V and put other components (e.g. Arduino) behind a regulator! When using unipolar (0-12V) supply:  LM741 floors at 2V or so &amp;ndash; anything below that gets clamped.</description>
     </item>
     
   </channel>

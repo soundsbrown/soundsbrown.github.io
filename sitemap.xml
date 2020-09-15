@@ -3,17 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://soundsbrown.github.io/tags/buffer/</loc>
+    <lastmod>2020-09-15T21:21:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/isolation/</loc>
+    <lastmod>2020-09-15T21:21:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/optocoupler/</loc>
+    <lastmod>2020-09-15T21:21:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/technotes/optocouplers/</loc>
+    <lastmod>2020-09-15T21:21:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/</loc>
+    <lastmod>2020-09-15T21:21:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/</loc>
+    <lastmod>2020-09-15T21:21:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/technotes/</loc>
+    <lastmod>2020-09-15T21:21:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/diode/</loc>
+    <lastmod>2020-09-11T22:43:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/technotes/isolation/</loc>
+    <lastmod>2020-09-11T22:43:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/opamp/</loc>
+    <lastmod>2020-09-11T22:43:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/optoisolator/</loc>
+    <lastmod>2020-09-11T22:43:45+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://soundsbrown.github.io/cheats/</loc>
     <lastmod>2020-09-11T16:35:28+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://soundsbrown.github.io/cheats/rgbled/</loc>
-    <lastmod>2020-09-11T16:35:28+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/</loc>
     <lastmod>2020-09-11T16:35:28+02:00</lastmod>
   </url>
   
@@ -34,11 +84,6 @@
   
   <url>
     <loc>https://soundsbrown.github.io/tags/pinout/</loc>
-    <lastmod>2020-09-11T12:12:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/tags/</loc>
     <lastmod>2020-09-11T12:12:20+02:00</lastmod>
   </url>
   
@@ -64,11 +109,6 @@
   
   <url>
     <loc>https://soundsbrown.github.io/technotes/synth_voltage/</loc>
-    <lastmod>2020-09-07T12:40:02+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/technotes/</loc>
     <lastmod>2020-09-07T12:40:02+02:00</lastmod>
   </url>
   
@@ -208,11 +248,6 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/tags/buffer/</loc>
-    <lastmod>2020-09-04T15:05:44+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://soundsbrown.github.io/tags/dac/</loc>
     <lastmod>2020-09-04T15:05:44+02:00</lastmod>
   </url>
@@ -228,17 +263,7 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/tags/isolation/</loc>
-    <lastmod>2020-09-04T15:05:44+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://soundsbrown.github.io/technotes/buffers/</loc>
-    <lastmod>2020-09-04T15:05:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/tags/opamp/</loc>
     <lastmod>2020-09-04T15:05:44+02:00</lastmod>
   </url>
   

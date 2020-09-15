@@ -7,10 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 11 Sep 2020 12:12:20 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2020 21:21:09 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>buffer</title>
+      <link>https://soundsbrown.github.io/tags/buffer/</link>
+      <pubDate>Tue, 15 Sep 2020 21:21:09 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/buffer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>isolation</title>
+      <link>https://soundsbrown.github.io/tags/isolation/</link>
+      <pubDate>Tue, 15 Sep 2020 21:21:09 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/isolation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>optocoupler</title>
+      <link>https://soundsbrown.github.io/tags/optocoupler/</link>
+      <pubDate>Tue, 15 Sep 2020 21:21:09 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/optocoupler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>diode</title>
+      <link>https://soundsbrown.github.io/tags/diode/</link>
+      <pubDate>Fri, 11 Sep 2020 22:43:45 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/diode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opamp</title>
+      <link>https://soundsbrown.github.io/tags/opamp/</link>
+      <pubDate>Fri, 11 Sep 2020 22:43:45 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/opamp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>optoisolator</title>
+      <link>https://soundsbrown.github.io/tags/optoisolator/</link>
+      <pubDate>Fri, 11 Sep 2020 22:43:45 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/optoisolator/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>arduino</title>
@@ -135,60 +189,6 @@
       <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/tags/volt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>watt</title>
-      <link>https://soundsbrown.github.io/tags/watt/</link>
-      <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/watt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>capacitor</title>
-      <link>https://soundsbrown.github.io/tags/capacitor/</link>
-      <pubDate>Mon, 07 Sep 2020 09:28:04 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/capacitor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>codes</title>
-      <link>https://soundsbrown.github.io/tags/codes/</link>
-      <pubDate>Mon, 07 Sep 2020 09:28:04 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/codes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>resistor</title>
-      <link>https://soundsbrown.github.io/tags/resistor/</link>
-      <pubDate>Mon, 07 Sep 2020 09:28:04 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/resistor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>atx</title>
-      <link>https://soundsbrown.github.io/tags/atx/</link>
-      <pubDate>Fri, 04 Sep 2020 17:16:11 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/atx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>connector</title>
-      <link>https://soundsbrown.github.io/tags/connector/</link>
-      <pubDate>Fri, 04 Sep 2020 17:16:11 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/connector/</guid>
       <description></description>
     </item>
     
