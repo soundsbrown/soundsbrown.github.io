@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 15 Sep 2020 21:21:09 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2020 09:35:49 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>3.5mm</title>
+      <link>https://soundsbrown.github.io/tags/3.5mm/</link>
+      <pubDate>Fri, 18 Sep 2020 09:35:49 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/3.5mm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>connector</title>
+      <link>https://soundsbrown.github.io/tags/connector/</link>
+      <pubDate>Fri, 18 Sep 2020 09:35:49 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/connector/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jack</title>
+      <link>https://soundsbrown.github.io/tags/jack/</link>
+      <pubDate>Fri, 18 Sep 2020 09:35:49 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/jack/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>buffer</title>
@@ -162,33 +189,6 @@
       <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/tags/ohm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>power</title>
-      <link>https://soundsbrown.github.io/tags/power/</link>
-      <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/power/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>resistance</title>
-      <link>https://soundsbrown.github.io/tags/resistance/</link>
-      <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/resistance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>volt</title>
-      <link>https://soundsbrown.github.io/tags/volt/</link>
-      <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/volt/</guid>
       <description></description>
     </item>
     
