@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ide on SoundsBrown</title>
+    <link>https://soundsbrown.github.io/tags/ide/</link>
+    <description>Recent content in ide on SoundsBrown</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 19 Sep 2020 23:15:23 +0200</lastBuildDate>
+    
+	<atom:link href="https://soundsbrown.github.io/tags/ide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Arduino_ide</title>
+      <link>https://soundsbrown.github.io/technotes/arduino_ide/</link>
+      <pubDate>Sat, 19 Sep 2020 23:15:23 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/technotes/arduino_ide/</guid>
+      <description> Installing a dark theme  Clone or download https://github.com/jeffThompson/DarkArduinoTheme Backup C:\Program Files (x86)\Arduino\lib\theme Overwrite with the theme directory from DarkArduinoTheme  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 18 Sep 2020 09:35:49 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2020 23:15:23 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>arduino</title>
+      <link>https://soundsbrown.github.io/tags/arduino/</link>
+      <pubDate>Sat, 19 Sep 2020 23:15:23 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ide</title>
+      <link>https://soundsbrown.github.io/tags/ide/</link>
+      <pubDate>Sat, 19 Sep 2020 23:15:23 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/ide/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>3.5mm</title>
@@ -94,15 +112,6 @@
     </item>
     
     <item>
-      <title>arduino</title>
-      <link>https://soundsbrown.github.io/tags/arduino/</link>
-      <pubDate>Fri, 11 Sep 2020 12:12:20 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/arduino/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>nano</title>
       <link>https://soundsbrown.github.io/tags/nano/</link>
       <pubDate>Fri, 11 Sep 2020 12:12:20 +0200</pubDate>
@@ -180,15 +189,6 @@
       <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/tags/current/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ohm</title>
-      <link>https://soundsbrown.github.io/tags/ohm/</link>
-      <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/ohm/</guid>
       <description></description>
     </item>
     

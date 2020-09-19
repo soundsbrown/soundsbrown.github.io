@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 18 Sep 2020 09:35:49 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2020 23:15:23 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Arduino_ide</title>
+      <link>https://soundsbrown.github.io/technotes/arduino_ide/</link>
+      <pubDate>Sat, 19 Sep 2020 23:15:23 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/technotes/arduino_ide/</guid>
+      <description> Installing a dark theme  Clone or download https://github.com/jeffThompson/DarkArduinoTheme Backup C:\Program Files (x86)\Arduino\lib\theme Overwrite with the theme directory from DarkArduinoTheme  </description>
+    </item>
     
     <item>
       <title>Switch jack pinout</title>
