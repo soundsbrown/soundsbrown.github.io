@@ -28,6 +28,7 @@
       
       <guid>https://soundsbrown.github.io/technotes/optocouplers/</guid>
       <description>Example circuits From the interwebs: Tested locally: 4N25 Test with circuit above suggests decay time of ~20ms after switching off. Input (J1) was square wave from LFO, output (J2) was to oscilloscope. Not great, but probably good enough for things like 1 PPS clock signals (200 BPM == 300 msec/beat).
+Note that https://hackaday.com/2018/05/09/optocouplers-defending-your-microcontroller-midi-and-a-hot-tip-for-speed/ suggests that adding some external circuitry can make the thing faster!
 H11L1 Didn&amp;rsquo;t want to play along &amp;ndash; to be investigated.</description>
     </item>
     
