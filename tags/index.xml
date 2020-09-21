@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 19 Sep 2020 23:15:23 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2020 23:27:31 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,18 @@
     <item>
       <title>arduino</title>
       <link>https://soundsbrown.github.io/tags/arduino/</link>
-      <pubDate>Sat, 19 Sep 2020 23:15:23 +0200</pubDate>
+      <pubDate>Mon, 21 Sep 2020 23:27:31 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/tags/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stm32</title>
+      <link>https://soundsbrown.github.io/tags/stm32/</link>
+      <pubDate>Mon, 21 Sep 2020 23:27:31 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/stm32/</guid>
       <description></description>
     </item>
     
@@ -180,15 +189,6 @@
       <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/tags/ampere/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>current</title>
-      <link>https://soundsbrown.github.io/tags/current/</link>
-      <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/current/</guid>
       <description></description>
     </item>
     
