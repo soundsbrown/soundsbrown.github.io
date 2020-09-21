@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ide on SoundsBrown</title>
-    <link>https://soundsbrown.github.io/tags/ide/</link>
-    <description>Recent content in ide on SoundsBrown</description>
+    <title>programmer on SoundsBrown</title>
+    <link>https://soundsbrown.github.io/tags/programmer/</link>
+    <description>Recent content in programmer on SoundsBrown</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Mon, 21 Sep 2020 23:53:33 +0200</lastBuildDate>
     
-	<atom:link href="https://soundsbrown.github.io/tags/ide/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://soundsbrown.github.io/tags/programmer/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,15 +22,6 @@
  Enable VCC output Set regulator mode to 5V  Insert cable the right way around:
 In Arduino IDE:
  Board: Arduino Uno Programmer: Atmel STK500 Always use “Upload using programmer” Use first of two COM ports (e.g. COM9 if it advertises 9 and 10) Burning bootloader also just works  </description>
-    </item>
-    
-    <item>
-      <title>Arduino IDE</title>
-      <link>https://soundsbrown.github.io/technotes/arduino_ide/</link>
-      <pubDate>Sat, 19 Sep 2020 23:15:23 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/technotes/arduino_ide/</guid>
-      <description> Installing a dark theme  Clone or download https://github.com/jeffThompson/DarkArduinoTheme Backup C:\Program Files (x86)\Arduino\lib\theme Overwrite with the theme directory from DarkArduinoTheme  </description>
     </item>
     
   </channel>

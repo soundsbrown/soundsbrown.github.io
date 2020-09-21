@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 21 Sep 2020 23:27:31 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2020 23:53:33 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,45 @@
     <item>
       <title>arduino</title>
       <link>https://soundsbrown.github.io/tags/arduino/</link>
-      <pubDate>Mon, 21 Sep 2020 23:27:31 +0200</pubDate>
+      <pubDate>Mon, 21 Sep 2020 23:53:33 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/tags/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bootloader</title>
+      <link>https://soundsbrown.github.io/tags/bootloader/</link>
+      <pubDate>Mon, 21 Sep 2020 23:53:33 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/bootloader/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ide</title>
+      <link>https://soundsbrown.github.io/tags/ide/</link>
+      <pubDate>Mon, 21 Sep 2020 23:53:33 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/ide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pololu</title>
+      <link>https://soundsbrown.github.io/tags/pololu/</link>
+      <pubDate>Mon, 21 Sep 2020 23:53:33 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/pololu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programmer</title>
+      <link>https://soundsbrown.github.io/tags/programmer/</link>
+      <pubDate>Mon, 21 Sep 2020 23:53:33 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/programmer/</guid>
       <description></description>
     </item>
     
@@ -27,15 +63,6 @@
       <pubDate>Mon, 21 Sep 2020 23:27:31 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/tags/stm32/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ide</title>
-      <link>https://soundsbrown.github.io/tags/ide/</link>
-      <pubDate>Sat, 19 Sep 2020 23:15:23 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/ide/</guid>
       <description></description>
     </item>
     
@@ -162,33 +189,6 @@
       <pubDate>Mon, 07 Sep 2020 12:40:02 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/tags/microbrute/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>neutron</title>
-      <link>https://soundsbrown.github.io/tags/neutron/</link>
-      <pubDate>Mon, 07 Sep 2020 12:40:02 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/neutron/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>voltage</title>
-      <link>https://soundsbrown.github.io/tags/voltage/</link>
-      <pubDate>Mon, 07 Sep 2020 12:40:02 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/voltage/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ampere</title>
-      <link>https://soundsbrown.github.io/tags/ampere/</link>
-      <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/ampere/</guid>
       <description></description>
     </item>
     
