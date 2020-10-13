@@ -153,7 +153,8 @@ Push changes: git push</description>
       <pubDate>Fri, 04 Sep 2020 15:23:29 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/cheats/voltagedivider/</guid>
-      <description></description>
+      <description>If used with bipolar supply (e.g. +/- 12V), you divide the difference between + and -, and subtract that from + to get the output voltage:
+Vo = Vp - (Vp-Vn)*R1/(R1+R2) (where Vp is positive supply voltage, e.g. +12V and Vn is negative supply voltage, e.g. -12V)</description>
     </item>
     
     <item>
