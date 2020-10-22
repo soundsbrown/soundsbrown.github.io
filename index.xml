@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 21 Sep 2020 23:53:33 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2020 00:00:02 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Form factor</title>
+      <link>https://soundsbrown.github.io/technotes/formfactor/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:02 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/technotes/formfactor/</guid>
+      <description> Eurorack “spec”: http://www.doepfer.de/a100_man/a100m_e.htm PSU  Regulators http://nozoid.com/diy-eurorack-power-supply/ suggests putting capacitors between each +-12V pin and GND https://aisynthesis.com/diy-eurorack-power-supply-build-guide/ suggests just putting some big-ass capacitors at the start of the line Schottky diodes? Cf. what Kassutronics put on the supply lines of his attenuverter module. http://www.frequencycentral.co.uk/?page_id=894   </description>
+    </item>
     
     <item>
       <title>Burning bootloaders</title>
