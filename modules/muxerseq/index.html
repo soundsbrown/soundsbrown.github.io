@@ -8,25 +8,28 @@
 	<meta name="theme-color" content="#73573e">
 	<meta name="msapplication-TileColor" content="#73573e">
 <meta itemprop="name" content="Muxer Sequencer">
-<meta itemprop="description" content="">
+<meta itemprop="description" content="This is a sequencer-ish module built around a 4051 multiplexer/demultiplexer IC. The IC is basically an 8-way selector switch which connects the COM jack to one of the 8 in/out jacks. The selection is done by setting 3 address bits. The IC works in both directions, so you can send 1 input to 8 alternating outputs, or take 1 output from 8 alternating inputs.
+The module is driven by an Arduino, which consumes the clock input and manages the address lines.">
 
 
 <meta itemprop="datePublished" content="2020-12-15T15:02:51&#43;01:00" />
 <meta itemprop="dateModified" content="2020-12-15T15:02:51&#43;01:00" />
-<meta itemprop="wordCount" content="0">
+<meta itemprop="wordCount" content="119">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta property="og:title" content="Muxer Sequencer" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="This is a sequencer-ish module built around a 4051 multiplexer/demultiplexer IC. The IC is basically an 8-way selector switch which connects the COM jack to one of the 8 in/out jacks. The selection is done by setting 3 address bits. The IC works in both directions, so you can send 1 input to 8 alternating outputs, or take 1 output from 8 alternating inputs.
+The module is driven by an Arduino, which consumes the clock input and manages the address lines." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://soundsbrown.github.io/modules/muxerseq/" />
 <meta property="article:published_time" content="2020-12-15T15:02:51+01:00" />
 <meta property="article:modified_time" content="2020-12-15T15:02:51+01:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Muxer Sequencer"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="This is a sequencer-ish module built around a 4051 multiplexer/demultiplexer IC. The IC is basically an 8-way selector switch which connects the COM jack to one of the 8 in/out jacks. The selection is done by setting 3 address bits. The IC works in both directions, so you can send 1 input to 8 alternating outputs, or take 1 output from 8 alternating inputs.
+The module is driven by an Arduino, which consumes the clock input and manages the address lines."/>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -79,7 +82,17 @@
 	<main class="site-main section-inner thin animated fadeIn faster">
 		<h1>Muxer Sequencer</h1>
 		<div class="content">
-			<p><img src="/images/modules/muxerseq.png"/></p>
+			<p>This is a sequencer-ish module built around a 4051 multiplexer/demultiplexer IC. The IC is basically an 8-way selector switch which connects the COM jack to one of the 8 in/out jacks. The selection is done by setting 3 address bits. The IC works in both directions, so you can send 1 input to 8 alternating outputs, or take 1 output from 8 alternating inputs.</p>
+
+<p>The module is driven by an Arduino, which consumes the clock input and manages the address lines. The two knobs control the pattern length and the playback mode (forward, backward, &ldquo;ping pong&rdquo; or random).</p>
+
+<p>The LEDs are coupled to the 3 address bits, but are buffered using a 4050 IC.</p>
+
+<p><img src="/images/modules/muxerseq.png"/></p>
+
+<p>References:
+- <a href="https://hackaday.com/2015/02/23/logic-noise-the-switching-sequencer/">https://hackaday.com/2015/02/23/logic-noise-the-switching-sequencer/</a>
+- <a href="https://hackaday.com/2017/05/17/a-few-of-our-favorite-chips-4051-analog-mux/">https://hackaday.com/2017/05/17/a-few-of-our-favorite-chips-4051-analog-mux/</a></p>
 
 		</div>
 	</main>

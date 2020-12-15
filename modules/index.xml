@@ -117,7 +117,8 @@
       <pubDate>Tue, 15 Dec 2020 15:02:51 +0100</pubDate>
       
       <guid>https://soundsbrown.github.io/modules/muxerseq/</guid>
-      <description></description>
+      <description>This is a sequencer-ish module built around a 4051 multiplexer/demultiplexer IC. The IC is basically an 8-way selector switch which connects the COM jack to one of the 8 in/out jacks. The selection is done by setting 3 address bits. The IC works in both directions, so you can send 1 input to 8 alternating outputs, or take 1 output from 8 alternating inputs.
+The module is driven by an Arduino, which consumes the clock input and manages the address lines.</description>
     </item>
     
     <item>
