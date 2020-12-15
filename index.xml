@@ -7,10 +7,118 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 11 Dec 2020 16:38:28 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 15 Dec 2020 15:04:05 +0100</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>4046 VCO</title>
+      <link>https://soundsbrown.github.io/modules/4046/</link>
+      <pubDate>Tue, 15 Dec 2020 15:04:05 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/4046/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I AM O</title>
+      <link>https://soundsbrown.github.io/modules/iamo/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:57 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/iamo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clock Source</title>
+      <link>https://soundsbrown.github.io/modules/clocks/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:54 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/clocks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WAV Trigger</title>
+      <link>https://soundsbrown.github.io/modules/wavtrigger/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:48 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/wavtrigger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Baby10 Sequencer</title>
+      <link>https://soundsbrown.github.io/modules/baby10/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:41 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/baby10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>White Noise</title>
+      <link>https://soundsbrown.github.io/modules/noise/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:33 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/noise/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attenuator</title>
+      <link>https://soundsbrown.github.io/modules/attenuator/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:26 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/attenuator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FM Radio</title>
+      <link>https://soundsbrown.github.io/modules/radio/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:20 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/radio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evil Eye</title>
+      <link>https://soundsbrown.github.io/modules/evileye/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:14 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/evileye/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>40106 Hex Oscillator</title>
+      <link>https://soundsbrown.github.io/modules/40106/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:07 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/40106/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LFO</title>
+      <link>https://soundsbrown.github.io/modules/lfo/</link>
+      <pubDate>Tue, 15 Dec 2020 15:02:59 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/lfo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Muxer Sequencer</title>
+      <link>https://soundsbrown.github.io/modules/muxerseq/</link>
+      <pubDate>Tue, 15 Dec 2020 15:02:51 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/muxerseq/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Vactrols</title>
@@ -101,128 +209,6 @@ Pinout </description>
       <description> DPDT jacks View from bottom:
 There is a pin closest to the barrel which is not shown here and which can always go to GND.
 Thonkiconn </description>
-    </item>
-    
-    <item>
-      <title>Optocouplers</title>
-      <link>https://soundsbrown.github.io/circuits/optocoupler/</link>
-      <pubDate>Tue, 15 Sep 2020 21:21:09 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/circuits/optocoupler/</guid>
-      <description>Example circuits From the interwebs: Tested locally: 4N25 Test with circuit above suggests decay time of ~20ms after switching off. Input (J1) was square wave from LFO, output (J2) was to oscilloscope. Not great, but probably good enough for things like 1 PPS clock signals (200 BPM == 300 msec/beat).
-Note that https://hackaday.com/2018/05/09/optocouplers-defending-your-microcontroller-midi-and-a-hot-tip-for-speed/ suggests that adding some external circuitry can make the thing faster!
-H11L1 Didn&amp;rsquo;t want to play along &amp;ndash; to be investigated.</description>
-    </item>
-    
-    <item>
-      <title>Isolation</title>
-      <link>https://soundsbrown.github.io/circuits/isolation/</link>
-      <pubDate>Fri, 11 Sep 2020 22:43:45 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/circuits/isolation/</guid>
-      <description> How do we make sure two interconnected modules don&amp;rsquo;t adversely affect one another?
-General  Pass I/O connectors through diodes before they connect to the circuit. Use an opamp, see buffers.  Digital signals  Optocouplers.  Dealing with differences in operating voltage  Voltage dividers. Regulators.  </description>
-    </item>
-    
-    <item>
-      <title>RGB LEDs</title>
-      <link>https://soundsbrown.github.io/components/rgbled/</link>
-      <pubDate>Fri, 11 Sep 2020 16:35:28 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/components/rgbled/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Arduino</title>
-      <link>https://soundsbrown.github.io/mcus/arduino/</link>
-      <pubDate>Fri, 11 Sep 2020 12:12:20 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/mcus/arduino/</guid>
-      <description>Arduino Nano pinout https://store.arduino.cc/arduino-nano
-Arduino MKR Zero pinout https://store.arduino.cc/arduino-mkr-zero-i2s-bus-sd-for-sound-music-digital-audio-data</description>
-    </item>
-    
-    <item>
-      <title>Synth voltage conventions</title>
-      <link>https://soundsbrown.github.io/modules/synth_voltage/</link>
-      <pubDate>Mon, 07 Sep 2020 12:40:02 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/modules/synth_voltage/</guid>
-      <description>Eurorack conventions  Pitch: 1V/oct PSUs have +/-12V and +5V (not -5V)  Measured results from my synths MicroBrute  Pitch: 0V → 7.04V (seems slightly wobbly) Gate: 0.12V → 11.03V Env: 0V → 4.5V LFO: -5V → 5V  KeyStep  Pitch: accurate to within 1% of 1V/oct Gate: 0.03V → 5.18V Mod: 0V → 5.25V Clock: 3.45V square wave with 50% duty cycle  DrumBrute Impact TBD (clock)</description>
-    </item>
-    
-    <item>
-      <title>Ohm&#39;s law</title>
-      <link>https://soundsbrown.github.io/circuits/ohmslaw/</link>
-      <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/circuits/ohmslaw/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Resistor and capacitor codes</title>
-      <link>https://soundsbrown.github.io/components/rccodes/</link>
-      <pubDate>Mon, 07 Sep 2020 09:28:04 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/components/rccodes/</guid>
-      <description> Resistor color codes Capacitor codes </description>
-    </item>
-    
-    <item>
-      <title>Power supplies and connectors</title>
-      <link>https://soundsbrown.github.io/components/power/</link>
-      <pubDate>Fri, 04 Sep 2020 17:16:11 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/components/power/</guid>
-      <description> ATX Eurorack My power bus Voltage regulators </description>
-    </item>
-    
-    <item>
-      <title>Github</title>
-      <link>https://soundsbrown.github.io/software/github/</link>
-      <pubDate>Fri, 04 Sep 2020 15:57:57 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/software/github/</guid>
-      <description>Clone: git clone https://github.com/soundsbrown/brownnote.git
-Remember credentials: git config credential.helper store
-Add files: git add file1 file2 file3
-See local changes: git diff &amp;ndash;cached
-Commit changes: git commit -a -m “Message”
-Push changes: git push</description>
-    </item>
-    
-    <item>
-      <title>Voltage dividers</title>
-      <link>https://soundsbrown.github.io/circuits/voltagedivider/</link>
-      <pubDate>Fri, 04 Sep 2020 15:23:29 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/circuits/voltagedivider/</guid>
-      <description>If used with bipolar supply (e.g. +/- 12V), you divide the difference between + and -, and subtract that from + to get the output voltage:
-Vo = Vp - (Vp-Vn)*R1/(R1+R2) (where Vp is positive supply voltage, e.g. +12V and Vn is negative supply voltage, e.g. -12V)</description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://soundsbrown.github.io/software/hugo/</link>
-      <pubDate>Fri, 04 Sep 2020 15:23:02 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/software/hugo/</guid>
-      <description> References  https://gohugo.io/getting-started/quick-start/ https://therealmjp.github.io/posts/hello-hugo/ https://gohugo.io/hosting-and-deployment/hosting-on-github/  Site setup Install the EXTENDED VERSION to enable customization of the Hermit theme!
-Commands:
- hugo new site soundsbrown cd soundsbrown git init git submodule add https://github.com/Track3/hermit.git themes/hermit echo theme = &amp;ldquo;hermit&amp;rdquo; &amp;gt;&amp;gt; config.toml hugo new posts\hello.md hugo hugo server -D  Some settings need to be copied from themes/hermit/exampleSite/config.toml to your own config.toml
-Structure and syntax  Markdown cheat sheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet  </description>
-    </item>
-    
-    <item>
-      <title>Op amps as buffers / voltage followers</title>
-      <link>https://soundsbrown.github.io/circuits/buffers/</link>
-      <pubDate>Fri, 04 Sep 2020 15:05:44 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/circuits/buffers/</guid>
-      <description>Circuit Op amps Pinouts    Op amp Pinout     LM741    TL072TL082    TL074TL084LM324     Application notes Supply voltage is important:
- All tested amps max out at somewhere between 3V and 4V when using a 5V supply. Use 12V and put other components (e.g. Arduino) behind a regulator! When using unipolar (0-12V) supply:  LM741 floors at 2V or so &amp;ndash; anything below that gets clamped.</description>
     </item>
     
   </channel>

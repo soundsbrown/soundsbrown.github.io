@@ -3,12 +3,77 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://soundsbrown.github.io/components/</loc>
-    <lastmod>2020-12-11T16:38:28+02:00</lastmod>
+    <loc>https://soundsbrown.github.io/modules/4046/</loc>
+    <lastmod>2020-12-15T15:04:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/modules/</loc>
+    <lastmod>2020-12-15T15:04:05+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://soundsbrown.github.io/</loc>
+    <lastmod>2020-12-15T15:04:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/modules/iamo/</loc>
+    <lastmod>2020-12-15T15:03:57+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/modules/clocks/</loc>
+    <lastmod>2020-12-15T15:03:54+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/modules/wavtrigger/</loc>
+    <lastmod>2020-12-15T15:03:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/modules/baby10/</loc>
+    <lastmod>2020-12-15T15:03:41+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/modules/noise/</loc>
+    <lastmod>2020-12-15T15:03:33+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/modules/attenuator/</loc>
+    <lastmod>2020-12-15T15:03:26+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/modules/radio/</loc>
+    <lastmod>2020-12-15T15:03:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/modules/evileye/</loc>
+    <lastmod>2020-12-15T15:03:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/modules/40106/</loc>
+    <lastmod>2020-12-15T15:03:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/modules/lfo/</loc>
+    <lastmod>2020-12-15T15:02:59+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/modules/muxerseq/</loc>
+    <lastmod>2020-12-15T15:02:51+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/components/</loc>
     <lastmod>2020-12-11T16:38:28+02:00</lastmod>
   </url>
   
@@ -29,11 +94,6 @@
   
   <url>
     <loc>https://soundsbrown.github.io/modules/apc/</loc>
-    <lastmod>2020-11-09T11:00:02+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/modules/</loc>
     <lastmod>2020-11-09T11:00:02+02:00</lastmod>
   </url>
   
