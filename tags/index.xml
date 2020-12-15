@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 23 Oct 2020 00:00:02 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2020 11:00:02 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>apc</title>
+      <link>https://soundsbrown.github.io/tags/apc/</link>
+      <pubDate>Mon, 09 Nov 2020 11:00:02 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/apc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>atari</title>
+      <link>https://soundsbrown.github.io/tags/atari/</link>
+      <pubDate>Mon, 09 Nov 2020 11:00:02 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/atari/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>power</title>
+      <link>https://soundsbrown.github.io/tags/power/</link>
+      <pubDate>Thu, 05 Nov 2020 00:00:02 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/power/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>psu</title>
+      <link>https://soundsbrown.github.io/tags/psu/</link>
+      <pubDate>Thu, 05 Nov 2020 00:00:02 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/psu/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>case</title>
@@ -27,15 +63,6 @@
       <pubDate>Fri, 23 Oct 2020 00:00:02 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/tags/panel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>psu</title>
-      <link>https://soundsbrown.github.io/tags/psu/</link>
-      <pubDate>Fri, 23 Oct 2020 00:00:02 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/psu/</guid>
       <description></description>
     </item>
     
@@ -162,33 +189,6 @@
       <pubDate>Fri, 11 Sep 2020 22:43:45 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/tags/opamp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>optoisolator</title>
-      <link>https://soundsbrown.github.io/tags/optoisolator/</link>
-      <pubDate>Fri, 11 Sep 2020 22:43:45 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/optoisolator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nano</title>
-      <link>https://soundsbrown.github.io/tags/nano/</link>
-      <pubDate>Fri, 11 Sep 2020 12:12:20 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/nano/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pinout</title>
-      <link>https://soundsbrown.github.io/tags/pinout/</link>
-      <pubDate>Fri, 11 Sep 2020 12:12:20 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/pinout/</guid>
       <description></description>
     </item>
     

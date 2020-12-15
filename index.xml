@@ -7,10 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 23 Oct 2020 00:00:02 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 11 Dec 2020 16:38:28 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vactrols</title>
+      <link>https://soundsbrown.github.io/components/vactrol/</link>
+      <pubDate>Fri, 11 Dec 2020 16:38:28 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/components/vactrol/</guid>
+      <description> https://sound-au.com/project200.htm  </description>
+    </item>
+    
+    <item>
+      <title>Atari Punk Console</title>
+      <link>https://soundsbrown.github.io/modules/apc/</link>
+      <pubDate>Mon, 09 Nov 2020 11:00:02 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/apc/</guid>
+      <description>Atari Punk Console with CV mods. I also slapped vactrols on the two pots.
+References: - https://sdiy.info/wiki/Atari_Punk_Console - https://www.instructables.com/Voltage-Controlable-Atari-Punk-Console/</description>
+    </item>
+    
+    <item>
+      <title>Power</title>
+      <link>https://soundsbrown.github.io/modules/psu/</link>
+      <pubDate>Thu, 05 Nov 2020 00:00:02 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/psu/</guid>
+      <description>Case contains an ATX power supply. Front panel breaks out the on/off switch, the standby and power on LEDs, and all the different positive voltages so it can be used like a bench supply.
+References: - https://www.electronics-tutorials.ws/blog/convert-atx-psu-to-bench-supply.html. - Power connectors.
+The backside contains bus boards that distribute +/-12V, +/-5V and GND using 5x2 pin headers and ribbon cables.
+TODO: Take a picture of the back.</description>
+    </item>
     
     <item>
       <title>Form factor</title>
@@ -192,26 +223,6 @@ Structure and syntax  Markdown cheat sheet: https://github.com/adam-p/markdown-h
       <guid>https://soundsbrown.github.io/circuits/buffers/</guid>
       <description>Circuit Op amps Pinouts    Op amp Pinout     LM741    TL072TL082    TL074TL084LM324     Application notes Supply voltage is important:
  All tested amps max out at somewhere between 3V and 4V when using a 5V supply. Use 12V and put other components (e.g. Arduino) behind a regulator! When using unipolar (0-12V) supply:  LM741 floors at 2V or so &amp;ndash; anything below that gets clamped.</description>
-    </item>
-    
-    <item>
-      <title>RC filters and PWM</title>
-      <link>https://soundsbrown.github.io/circuits/rcfilter/</link>
-      <pubDate>Fri, 04 Sep 2020 15:05:44 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/circuits/rcfilter/</guid>
-      <description>References  R and C value calculator:  http://sim.okawa-denshi.jp/en/PWMtool.php  About Arduino PWM outputs:
- https://playground.arduino.cc/Code/PwmFrequency/ https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM   Arduino PWM PWM base frequency:
- Pins 5 and 6: 62500 Hz Pins 3, 9, 10, and 11 is 31250 Hz Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al.</description>
-    </item>
-    
-    <item>
-      <title>About SoundsBrown</title>
-      <link>https://soundsbrown.github.io/about/</link>
-      <pubDate>Thu, 05 Sep 2019 10:34:41 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/about/</guid>
-      <description>This site is intended as a private collection of personal notes regarding my DIY synth projects. Please do not read it.</description>
     </item>
     
   </channel>

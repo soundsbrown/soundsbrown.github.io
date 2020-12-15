@@ -3,6 +3,61 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://soundsbrown.github.io/components/</loc>
+    <lastmod>2020-12-11T16:38:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/</loc>
+    <lastmod>2020-12-11T16:38:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/components/vactrol/</loc>
+    <lastmod>2020-12-11T16:38:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/apc/</loc>
+    <lastmod>2020-11-09T11:00:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/atari/</loc>
+    <lastmod>2020-11-09T11:00:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/modules/apc/</loc>
+    <lastmod>2020-11-09T11:00:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/modules/</loc>
+    <lastmod>2020-11-09T11:00:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/</loc>
+    <lastmod>2020-11-09T11:00:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/modules/psu/</loc>
+    <lastmod>2020-11-05T00:00:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/power/</loc>
+    <lastmod>2020-11-05T00:00:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/psu/</loc>
+    <lastmod>2020-11-05T00:00:02+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://soundsbrown.github.io/tags/case/</loc>
     <lastmod>2020-10-23T00:00:02+02:00</lastmod>
   </url>
@@ -13,27 +68,7 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/modules/</loc>
-    <lastmod>2020-10-23T00:00:02+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://soundsbrown.github.io/tags/panel/</loc>
-    <lastmod>2020-10-23T00:00:02+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/tags/psu/</loc>
-    <lastmod>2020-10-23T00:00:02+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/</loc>
-    <lastmod>2020-10-23T00:00:02+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/tags/</loc>
     <lastmod>2020-10-23T00:00:02+02:00</lastmod>
   </url>
   
@@ -94,11 +129,6 @@
   
   <url>
     <loc>https://soundsbrown.github.io/tags/3.5mm/</loc>
-    <lastmod>2020-09-18T09:35:49+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/components/</loc>
     <lastmod>2020-09-18T09:35:49+02:00</lastmod>
   </url>
   
@@ -229,11 +259,6 @@
   
   <url>
     <loc>https://soundsbrown.github.io/circuits/ohmslaw/</loc>
-    <lastmod>2020-09-07T12:33:34+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/tags/power/</loc>
     <lastmod>2020-09-07T12:33:34+02:00</lastmod>
   </url>
   

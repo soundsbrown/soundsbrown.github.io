@@ -7,10 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 23 Oct 2020 00:00:02 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2020 11:00:02 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/modules/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Atari Punk Console</title>
+      <link>https://soundsbrown.github.io/modules/apc/</link>
+      <pubDate>Mon, 09 Nov 2020 11:00:02 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/apc/</guid>
+      <description>Atari Punk Console with CV mods. I also slapped vactrols on the two pots.
+References: - https://sdiy.info/wiki/Atari_Punk_Console - https://www.instructables.com/Voltage-Controlable-Atari-Punk-Console/</description>
+    </item>
+    
+    <item>
+      <title>Power</title>
+      <link>https://soundsbrown.github.io/modules/psu/</link>
+      <pubDate>Thu, 05 Nov 2020 00:00:02 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/psu/</guid>
+      <description>Case contains an ATX power supply. Front panel breaks out the on/off switch, the standby and power on LEDs, and all the different positive voltages so it can be used like a bench supply.
+References: - https://www.electronics-tutorials.ws/blog/convert-atx-psu-to-bench-supply.html. - Power connectors.
+The backside contains bus boards that distribute +/-12V, +/-5V and GND using 5x2 pin headers and ribbon cables.
+TODO: Take a picture of the back.</description>
+    </item>
     
     <item>
       <title>Form factor</title>
