@@ -18,7 +18,11 @@
       <pubDate>Fri, 23 Oct 2020 00:00:02 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/modules/formfactor/</guid>
-      <description> Eurorack “spec”: http://www.doepfer.de/a100_man/a100m_e.htm PSU  Regulators http://nozoid.com/diy-eurorack-power-supply/ suggests putting capacitors between each +-12V pin and GND https://aisynthesis.com/diy-eurorack-power-supply-build-guide/ suggests just putting some big-ass capacitors at the start of the line Schottky diodes? Cf. what Kassutronics put on the supply lines of his attenuverter module. http://www.frequencycentral.co.uk/?page_id=894   </description>
+      <description> Eurorack “spec”: http://www.doepfer.de/a100_man/a100m_e.htm
+ Ikea RAST = 19x10.5 inch = two rows of 3U modules
+ ATX PSU
+ Front panels from mandarin crates
+  </description>
     </item>
     
   </channel>
