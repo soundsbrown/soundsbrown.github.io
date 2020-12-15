@@ -14,29 +14,29 @@
     
     <item>
       <title>Resistor and capacitor codes</title>
-      <link>https://soundsbrown.github.io/cheats/rccodes/</link>
+      <link>https://soundsbrown.github.io/components/rccodes/</link>
       <pubDate>Mon, 07 Sep 2020 09:28:04 +0200</pubDate>
       
-      <guid>https://soundsbrown.github.io/cheats/rccodes/</guid>
+      <guid>https://soundsbrown.github.io/components/rccodes/</guid>
       <description> Resistor color codes Capacitor codes </description>
     </item>
     
     <item>
       <title>Voltage dividers</title>
-      <link>https://soundsbrown.github.io/cheats/voltagedivider/</link>
+      <link>https://soundsbrown.github.io/circuits/voltagedivider/</link>
       <pubDate>Fri, 04 Sep 2020 15:23:29 +0200</pubDate>
       
-      <guid>https://soundsbrown.github.io/cheats/voltagedivider/</guid>
+      <guid>https://soundsbrown.github.io/circuits/voltagedivider/</guid>
       <description>If used with bipolar supply (e.g. +/- 12V), you divide the difference between + and -, and subtract that from + to get the output voltage:
 Vo = Vp - (Vp-Vn)*R1/(R1+R2) (where Vp is positive supply voltage, e.g. +12V and Vn is negative supply voltage, e.g. -12V)</description>
     </item>
     
     <item>
       <title>RC filters and PWM</title>
-      <link>https://soundsbrown.github.io/technotes/rcfilter/</link>
+      <link>https://soundsbrown.github.io/circuits/rcfilter/</link>
       <pubDate>Fri, 04 Sep 2020 15:05:44 +0200</pubDate>
       
-      <guid>https://soundsbrown.github.io/technotes/rcfilter/</guid>
+      <guid>https://soundsbrown.github.io/circuits/rcfilter/</guid>
       <description>References  R and C value calculator:  http://sim.okawa-denshi.jp/en/PWMtool.php  About Arduino PWM outputs:
  https://playground.arduino.cc/Code/PwmFrequency/ https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM   Arduino PWM PWM base frequency:
  Pins 5 and 6: 62500 Hz Pins 3, 9, 10, and 11 is 31250 Hz Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al.</description>

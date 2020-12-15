@@ -14,10 +14,10 @@
     
     <item>
       <title>STM32</title>
-      <link>https://soundsbrown.github.io/technotes/stm32/</link>
+      <link>https://soundsbrown.github.io/mcus/stm32/</link>
       <pubDate>Mon, 21 Sep 2020 23:27:31 +0200</pubDate>
       
-      <guid>https://soundsbrown.github.io/technotes/stm32/</guid>
+      <guid>https://soundsbrown.github.io/mcus/stm32/</guid>
       <description> Note! The information below may be obsolete, check here:
  https://www.stm32duino.com/ https://github.com/stm32duino/wiki/wiki https://www.youtube.com/watch?v=337rDuCGeYs&amp;amp;list=WL&amp;amp;index=3&amp;amp;t=124s  HW/SW setup Add to board manager URLs: http://dan.drown.org/stm32duino/package_STM32duino_index.json
 Also downloaded release from https://github.com/rogerclarkmelbourne/Arduino_STM32

@@ -8,7 +8,12 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/technotes/formfactor/</loc>
+    <loc>https://soundsbrown.github.io/modules/formfactor/</loc>
+    <lastmod>2020-10-23T00:00:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/modules/</loc>
     <lastmod>2020-10-23T00:00:02+02:00</lastmod>
   </url>
   
@@ -33,11 +38,6 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/technotes/</loc>
-    <lastmod>2020-10-23T00:00:02+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://soundsbrown.github.io/tags/arduino/</loc>
     <lastmod>2020-09-21T23:53:33+02:00</lastmod>
   </url>
@@ -48,12 +48,17 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/technotes/burning/</loc>
+    <loc>https://soundsbrown.github.io/mcus/burning/</loc>
     <lastmod>2020-09-21T23:53:33+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://soundsbrown.github.io/tags/ide/</loc>
+    <lastmod>2020-09-21T23:53:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/mcus/</loc>
     <lastmod>2020-09-21T23:53:33+02:00</lastmod>
   </url>
   
@@ -68,7 +73,7 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/technotes/stm32/</loc>
+    <loc>https://soundsbrown.github.io/mcus/stm32/</loc>
     <lastmod>2020-09-21T23:27:31+02:00</lastmod>
   </url>
   
@@ -78,7 +83,12 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/technotes/arduino_ide/</loc>
+    <loc>https://soundsbrown.github.io/software/arduino_ide/</loc>
+    <lastmod>2020-09-19T23:15:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/software/</loc>
     <lastmod>2020-09-19T23:15:23+02:00</lastmod>
   </url>
   
@@ -88,7 +98,7 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/cheats/</loc>
+    <loc>https://soundsbrown.github.io/components/</loc>
     <lastmod>2020-09-18T09:35:49+02:00</lastmod>
   </url>
   
@@ -103,12 +113,17 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/cheats/switchjack/</loc>
+    <loc>https://soundsbrown.github.io/components/switchjack/</loc>
     <lastmod>2020-09-18T09:35:49+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://soundsbrown.github.io/tags/buffer/</loc>
+    <lastmod>2020-09-15T21:21:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/circuits/</loc>
     <lastmod>2020-09-15T21:21:09+02:00</lastmod>
   </url>
   
@@ -123,7 +138,7 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/technotes/optocouplers/</loc>
+    <loc>https://soundsbrown.github.io/circuits/optocoupler/</loc>
     <lastmod>2020-09-15T21:21:09+02:00</lastmod>
   </url>
   
@@ -133,7 +148,7 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/technotes/isolation/</loc>
+    <loc>https://soundsbrown.github.io/circuits/isolation/</loc>
     <lastmod>2020-09-11T22:43:45+02:00</lastmod>
   </url>
   
@@ -148,12 +163,12 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/cheats/rgbled/</loc>
+    <loc>https://soundsbrown.github.io/components/rgbled/</loc>
     <lastmod>2020-09-11T16:35:28+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/cheats/arduino/</loc>
+    <loc>https://soundsbrown.github.io/mcus/arduino/</loc>
     <lastmod>2020-09-11T12:12:20+02:00</lastmod>
   </url>
   
@@ -188,7 +203,7 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/technotes/synth_voltage/</loc>
+    <loc>https://soundsbrown.github.io/modules/synth_voltage/</loc>
     <lastmod>2020-09-07T12:40:02+02:00</lastmod>
   </url>
   
@@ -213,7 +228,7 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/cheats/ohmslaw/</loc>
+    <loc>https://soundsbrown.github.io/circuits/ohmslaw/</loc>
     <lastmod>2020-09-07T12:33:34+02:00</lastmod>
   </url>
   
@@ -253,7 +268,7 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/cheats/rccodes/</loc>
+    <loc>https://soundsbrown.github.io/components/rccodes/</loc>
     <lastmod>2020-09-07T09:28:04+02:00</lastmod>
   </url>
   
@@ -263,7 +278,7 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/cheats/power/</loc>
+    <loc>https://soundsbrown.github.io/components/power/</loc>
     <lastmod>2020-09-04T17:16:11+02:00</lastmod>
   </url>
   
@@ -278,7 +293,7 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/technotes/github/</loc>
+    <loc>https://soundsbrown.github.io/software/github/</loc>
     <lastmod>2020-09-04T15:57:57+02:00</lastmod>
   </url>
   
@@ -298,12 +313,12 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/cheats/voltagedivider/</loc>
+    <loc>https://soundsbrown.github.io/circuits/voltagedivider/</loc>
     <lastmod>2020-09-04T15:23:29+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/technotes/hugo/</loc>
+    <loc>https://soundsbrown.github.io/software/hugo/</loc>
     <lastmod>2020-09-04T15:23:02+02:00</lastmod>
   </url>
   
@@ -333,7 +348,7 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/technotes/buffers/</loc>
+    <loc>https://soundsbrown.github.io/circuits/buffers/</loc>
     <lastmod>2020-09-04T15:05:44+02:00</lastmod>
   </url>
   
@@ -343,13 +358,8 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/technotes/rcfilter/</loc>
+    <loc>https://soundsbrown.github.io/circuits/rcfilter/</loc>
     <lastmod>2020-09-04T15:05:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/modules/</loc>
-    <lastmod>2019-10-28T21:35:44+02:00</lastmod>
   </url>
   
   <url>

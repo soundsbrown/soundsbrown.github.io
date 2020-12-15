@@ -14,10 +14,10 @@
     
     <item>
       <title>Github</title>
-      <link>https://soundsbrown.github.io/technotes/github/</link>
+      <link>https://soundsbrown.github.io/software/github/</link>
       <pubDate>Fri, 04 Sep 2020 15:57:57 +0200</pubDate>
       
-      <guid>https://soundsbrown.github.io/technotes/github/</guid>
+      <guid>https://soundsbrown.github.io/software/github/</guid>
       <description>Clone: git clone https://github.com/soundsbrown/brownnote.git
 Remember credentials: git config credential.helper store
 Add files: git add file1 file2 file3

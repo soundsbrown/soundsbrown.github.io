@@ -14,28 +14,28 @@
     
     <item>
       <title>Synth voltage conventions</title>
-      <link>https://soundsbrown.github.io/technotes/synth_voltage/</link>
+      <link>https://soundsbrown.github.io/modules/synth_voltage/</link>
       <pubDate>Mon, 07 Sep 2020 12:40:02 +0200</pubDate>
       
-      <guid>https://soundsbrown.github.io/technotes/synth_voltage/</guid>
+      <guid>https://soundsbrown.github.io/modules/synth_voltage/</guid>
       <description>Eurorack conventions  Pitch: 1V/oct PSUs have +/-12V and +5V (not -5V)  Measured results from my synths MicroBrute  Pitch: 0V → 7.04V (seems slightly wobbly) Gate: 0.12V → 11.03V Env: 0V → 4.5V LFO: -5V → 5V  KeyStep  Pitch: accurate to within 1% of 1V/oct Gate: 0.03V → 5.18V Mod: 0V → 5.25V Clock: 3.45V square wave with 50% duty cycle  DrumBrute Impact TBD (clock)</description>
     </item>
     
     <item>
       <title>Ohm&#39;s law</title>
-      <link>https://soundsbrown.github.io/cheats/ohmslaw/</link>
+      <link>https://soundsbrown.github.io/circuits/ohmslaw/</link>
       <pubDate>Mon, 07 Sep 2020 12:33:34 +0200</pubDate>
       
-      <guid>https://soundsbrown.github.io/cheats/ohmslaw/</guid>
+      <guid>https://soundsbrown.github.io/circuits/ohmslaw/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Op amps as buffers / voltage followers</title>
-      <link>https://soundsbrown.github.io/technotes/buffers/</link>
+      <link>https://soundsbrown.github.io/circuits/buffers/</link>
       <pubDate>Fri, 04 Sep 2020 15:05:44 +0200</pubDate>
       
-      <guid>https://soundsbrown.github.io/technotes/buffers/</guid>
+      <guid>https://soundsbrown.github.io/circuits/buffers/</guid>
       <description>Circuit Op amps Pinouts    Op amp Pinout     LM741    TL072TL082    TL074TL084LM324     Application notes Supply voltage is important:
  All tested amps max out at somewhere between 3V and 4V when using a 5V supply. Use 12V and put other components (e.g. Arduino) behind a regulator! When using unipolar (0-12V) supply:  LM741 floors at 2V or so &amp;ndash; anything below that gets clamped.</description>
     </item>

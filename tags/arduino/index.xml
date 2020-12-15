@@ -14,10 +14,10 @@
     
     <item>
       <title>Burning bootloaders</title>
-      <link>https://soundsbrown.github.io/technotes/burning/</link>
+      <link>https://soundsbrown.github.io/mcus/burning/</link>
       <pubDate>Mon, 21 Sep 2020 23:53:33 +0200</pubDate>
       
-      <guid>https://soundsbrown.github.io/technotes/burning/</guid>
+      <guid>https://soundsbrown.github.io/mcus/burning/</guid>
       <description>In Pololu config utility:
  Enable VCC output Set regulator mode to 5V  Insert cable the right way around:
 In Arduino IDE:
@@ -26,10 +26,10 @@ In Arduino IDE:
     
     <item>
       <title>STM32</title>
-      <link>https://soundsbrown.github.io/technotes/stm32/</link>
+      <link>https://soundsbrown.github.io/mcus/stm32/</link>
       <pubDate>Mon, 21 Sep 2020 23:27:31 +0200</pubDate>
       
-      <guid>https://soundsbrown.github.io/technotes/stm32/</guid>
+      <guid>https://soundsbrown.github.io/mcus/stm32/</guid>
       <description> Note! The information below may be obsolete, check here:
  https://www.stm32duino.com/ https://github.com/stm32duino/wiki/wiki https://www.youtube.com/watch?v=337rDuCGeYs&amp;amp;list=WL&amp;amp;index=3&amp;amp;t=124s  HW/SW setup Add to board manager URLs: http://dan.drown.org/stm32duino/package_STM32duino_index.json
 Also downloaded release from https://github.com/rogerclarkmelbourne/Arduino_STM32
@@ -41,29 +41,29 @@ Pinout </description>
     
     <item>
       <title>Arduino IDE</title>
-      <link>https://soundsbrown.github.io/technotes/arduino_ide/</link>
+      <link>https://soundsbrown.github.io/software/arduino_ide/</link>
       <pubDate>Sat, 19 Sep 2020 23:15:23 +0200</pubDate>
       
-      <guid>https://soundsbrown.github.io/technotes/arduino_ide/</guid>
+      <guid>https://soundsbrown.github.io/software/arduino_ide/</guid>
       <description> Installing a dark theme  Clone or download https://github.com/jeffThompson/DarkArduinoTheme Backup C:\Program Files (x86)\Arduino\lib\theme Overwrite with the theme directory from DarkArduinoTheme  </description>
     </item>
     
     <item>
       <title>Arduino</title>
-      <link>https://soundsbrown.github.io/cheats/arduino/</link>
+      <link>https://soundsbrown.github.io/mcus/arduino/</link>
       <pubDate>Fri, 11 Sep 2020 12:12:20 +0200</pubDate>
       
-      <guid>https://soundsbrown.github.io/cheats/arduino/</guid>
+      <guid>https://soundsbrown.github.io/mcus/arduino/</guid>
       <description>Arduino Nano pinout https://store.arduino.cc/arduino-nano
 Arduino MKR Zero pinout https://store.arduino.cc/arduino-mkr-zero-i2s-bus-sd-for-sound-music-digital-audio-data</description>
     </item>
     
     <item>
       <title>RC filters and PWM</title>
-      <link>https://soundsbrown.github.io/technotes/rcfilter/</link>
+      <link>https://soundsbrown.github.io/circuits/rcfilter/</link>
       <pubDate>Fri, 04 Sep 2020 15:05:44 +0200</pubDate>
       
-      <guid>https://soundsbrown.github.io/technotes/rcfilter/</guid>
+      <guid>https://soundsbrown.github.io/circuits/rcfilter/</guid>
       <description>References  R and C value calculator:  http://sim.okawa-denshi.jp/en/PWMtool.php  About Arduino PWM outputs:
  https://playground.arduino.cc/Code/PwmFrequency/ https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM   Arduino PWM PWM base frequency:
  Pins 5 and 6: 62500 Hz Pins 3, 9, 10, and 11 is 31250 Hz Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al.</description>

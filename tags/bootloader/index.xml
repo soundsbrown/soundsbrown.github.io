@@ -14,10 +14,10 @@
     
     <item>
       <title>Burning bootloaders</title>
-      <link>https://soundsbrown.github.io/technotes/burning/</link>
+      <link>https://soundsbrown.github.io/mcus/burning/</link>
       <pubDate>Mon, 21 Sep 2020 23:53:33 +0200</pubDate>
       
-      <guid>https://soundsbrown.github.io/technotes/burning/</guid>
+      <guid>https://soundsbrown.github.io/mcus/burning/</guid>
       <description>In Pololu config utility:
  Enable VCC output Set regulator mode to 5V  Insert cable the right way around:
 In Arduino IDE:

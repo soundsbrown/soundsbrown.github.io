@@ -14,10 +14,10 @@
     
     <item>
       <title>Isolation</title>
-      <link>https://soundsbrown.github.io/technotes/isolation/</link>
+      <link>https://soundsbrown.github.io/circuits/isolation/</link>
       <pubDate>Fri, 11 Sep 2020 22:43:45 +0200</pubDate>
       
-      <guid>https://soundsbrown.github.io/technotes/isolation/</guid>
+      <guid>https://soundsbrown.github.io/circuits/isolation/</guid>
       <description> How do we make sure two interconnected modules don&amp;rsquo;t adversely affect one another?
 General  Pass I/O connectors through diodes before they connect to the circuit. Use an opamp, see buffers.  Digital signals  Optocouplers.  Dealing with differences in operating voltage  Voltage dividers. Regulators.  </description>
     </item>

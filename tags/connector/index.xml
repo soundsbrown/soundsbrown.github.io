@@ -14,10 +14,10 @@
     
     <item>
       <title>Switch jack pinout</title>
-      <link>https://soundsbrown.github.io/cheats/switchjack/</link>
+      <link>https://soundsbrown.github.io/components/switchjack/</link>
       <pubDate>Fri, 18 Sep 2020 09:35:49 +0200</pubDate>
       
-      <guid>https://soundsbrown.github.io/cheats/switchjack/</guid>
+      <guid>https://soundsbrown.github.io/components/switchjack/</guid>
       <description> DPDT jacks View from bottom:
 There is a pin closest to the barrel which is not shown here and which can always go to GND.
 Thonkiconn </description>
@@ -25,10 +25,10 @@ Thonkiconn </description>
     
     <item>
       <title>Power supplies and connectors</title>
-      <link>https://soundsbrown.github.io/cheats/power/</link>
+      <link>https://soundsbrown.github.io/components/power/</link>
       <pubDate>Fri, 04 Sep 2020 17:16:11 +0200</pubDate>
       
-      <guid>https://soundsbrown.github.io/cheats/power/</guid>
+      <guid>https://soundsbrown.github.io/components/power/</guid>
       <description> ATX Eurorack My power bus Voltage regulators </description>
     </item>
     

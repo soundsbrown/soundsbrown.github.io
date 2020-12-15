@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mcus on SoundsBrown</title>
+    <link>https://soundsbrown.github.io/mcus/</link>
+    <description>Recent content in Mcus on SoundsBrown</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 21 Sep 2020 23:53:33 +0200</lastBuildDate>
+    
+	<atom:link href="https://soundsbrown.github.io/mcus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Burning bootloaders</title>
+      <link>https://soundsbrown.github.io/mcus/burning/</link>
+      <pubDate>Mon, 21 Sep 2020 23:53:33 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/mcus/burning/</guid>
+      <description>In Pololu config utility:
+ Enable VCC output Set regulator mode to 5V  Insert cable the right way around:
+In Arduino IDE:
+ Board: Arduino Uno Programmer: Atmel STK500 Always use “Upload using programmer” Use first of two COM ports (e.g. COM9 if it advertises 9 and 10) Burning bootloader also just works  </description>
+    </item>
+    
+    <item>
+      <title>STM32</title>
+      <link>https://soundsbrown.github.io/mcus/stm32/</link>
+      <pubDate>Mon, 21 Sep 2020 23:27:31 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/mcus/stm32/</guid>
+      <description> Note! The information below may be obsolete, check here:
+ https://www.stm32duino.com/ https://github.com/stm32duino/wiki/wiki https://www.youtube.com/watch?v=337rDuCGeYs&amp;amp;list=WL&amp;amp;index=3&amp;amp;t=124s  HW/SW setup Add to board manager URLs: http://dan.drown.org/stm32duino/package_STM32duino_index.json
+Also downloaded release from https://github.com/rogerclarkmelbourne/Arduino_STM32
+Unzipped into C:\Users\Tom\Documents\Arduino\hardware\Arduino_STM32-1.0.0
+Executed drivers/win/install_drivers.bat
+Jumpers on board are both set to 0
+Pinout </description>
+    </item>
+    
+    <item>
+      <title>Arduino</title>
+      <link>https://soundsbrown.github.io/mcus/arduino/</link>
+      <pubDate>Fri, 11 Sep 2020 12:12:20 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/mcus/arduino/</guid>
+      <description>Arduino Nano pinout https://store.arduino.cc/arduino-nano
+Arduino MKR Zero pinout https://store.arduino.cc/arduino-mkr-zero-i2s-bus-sd-for-sound-music-digital-audio-data</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 28 Oct 2019 21:35:44 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2020 00:00:02 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/modules/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Form factor</title>
+      <link>https://soundsbrown.github.io/modules/formfactor/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:02 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/formfactor/</guid>
+      <description> Eurorack “spec”: http://www.doepfer.de/a100_man/a100m_e.htm PSU  Regulators http://nozoid.com/diy-eurorack-power-supply/ suggests putting capacitors between each +-12V pin and GND https://aisynthesis.com/diy-eurorack-power-supply-build-guide/ suggests just putting some big-ass capacitors at the start of the line Schottky diodes? Cf. what Kassutronics put on the supply lines of his attenuverter module. http://www.frequencycentral.co.uk/?page_id=894   </description>
+    </item>
+    
+    <item>
+      <title>Synth voltage conventions</title>
+      <link>https://soundsbrown.github.io/modules/synth_voltage/</link>
+      <pubDate>Mon, 07 Sep 2020 12:40:02 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/synth_voltage/</guid>
+      <description>Eurorack conventions  Pitch: 1V/oct PSUs have +/-12V and +5V (not -5V)  Measured results from my synths MicroBrute  Pitch: 0V → 7.04V (seems slightly wobbly) Gate: 0.12V → 11.03V Env: 0V → 4.5V LFO: -5V → 5V  KeyStep  Pitch: accurate to within 1% of 1V/oct Gate: 0.03V → 5.18V Mod: 0V → 5.25V Clock: 3.45V square wave with 50% duty cycle  DrumBrute Impact TBD (clock)</description>
+    </item>
     
     <item>
       <title>Modules</title>
