@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 04 Sep 2020 15:05:44 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 15 Dec 2020 15:02:59 +0100</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/tags/dac/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>LFO</title>
+      <link>https://soundsbrown.github.io/modules/lfo/</link>
+      <pubDate>Tue, 15 Dec 2020 15:02:59 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/lfo/</guid>
+      <description>Arduino-based digital LFO.
+ Rate from 0.01 Hz to 37 Hz using a non-linear scale. Six waveforms: saw, ramp, triangle, square, sine and value noise (Perlin-esque). PWM control for all waveforms. Unipolar output (0V - 5V) through an MCP4725 DAC (I2C interface, 12 bit resolution). Optional status display on an I2C OLED. Output is buffered using a TL08x  References:
+ https://www.sparkfun.com/products/12918 https://github.com/olikraus/U8g2_Arduino  </description>
+    </item>
     
     <item>
       <title>RC filters and PWM</title>

@@ -18,7 +18,10 @@
       <pubDate>Tue, 15 Dec 2020 15:04:05 +0100</pubDate>
       
       <guid>https://soundsbrown.github.io/modules/4046/</guid>
-      <description></description>
+      <description>VCO based on a 4046 IC.
+https://hackaday.com/2015/08/07/logic-noise-4046-voltage-controlled-oscillator-part-one/
+TODO:
+ Pitch is wildly unstable, buffer the CV input? See https://www.youtube.com/watch?v=3ZLcbhSE1pc  </description>
     </item>
     
     <item>
@@ -27,7 +30,8 @@
       <pubDate>Tue, 15 Dec 2020 15:03:57 +0100</pubDate>
       
       <guid>https://soundsbrown.github.io/modules/iamo/</guid>
-      <description></description>
+      <description>Passive VCA / amplitude modulation thingy.
+https://www.youtube.com/watch?v=m_z0NfnLqRM</description>
     </item>
     
     <item>
@@ -36,7 +40,7 @@
       <pubDate>Tue, 15 Dec 2020 15:03:54 +0100</pubDate>
       
       <guid>https://soundsbrown.github.io/modules/clocks/</guid>
-      <description></description>
+      <description>Arduino-based quad clock pulse generator. The topmost knob sets the master tempo in BPM. The other three channels are derived from the master with a multiplier that can range from 1&amp;frasl;16 to 16. The settings for each channel are shown on an I2C OLED display. Output for each channel is a 5V square wave with 50% duty cycle.</description>
     </item>
     
     <item>
@@ -45,7 +49,7 @@
       <pubDate>Tue, 15 Dec 2020 15:03:48 +0100</pubDate>
       
       <guid>https://soundsbrown.github.io/modules/wavtrigger/</guid>
-      <description></description>
+      <description>Robertsonics WAV Trigger sampler. SD card stores 16 sound samples. The 16 trigger pins are broken out to jacks on the front panel, so the samples can be fired with CV. The left and right channels of the output are broken out as separate mono jacks, so you could in theory load two completely different sounds in the left and right channels of each WAV file and process them independently in other modules.</description>
     </item>
     
     <item>
@@ -54,7 +58,9 @@
       <pubDate>Tue, 15 Dec 2020 15:03:41 +0100</pubDate>
       
       <guid>https://soundsbrown.github.io/modules/baby10/</guid>
-      <description></description>
+      <description>Classic &amp;ldquo;Baby 10&amp;rdquo; sequencer based on 4017 decade counter IC. Uses external clock signal for timing. Each step has a pot for setting the output voltage (0-5V), a gate output and an indicator LED. Global CV jack outputs the sequenced voltages. Buttons allow manual stepping and resetting to step 0.
+https://hackaday.com/2016/01/14/oh-baby-baby10-build-a-classic-analog-music-sequencer/
+Very laborious build due to large number of front panel components, would not make again. The muxer sequencer is at least as useful in hindsight and was much easier to build.</description>
     </item>
     
     <item>
@@ -63,7 +69,7 @@
       <pubDate>Tue, 15 Dec 2020 15:03:33 +0100</pubDate>
       
       <guid>https://soundsbrown.github.io/modules/noise/</guid>
-      <description></description>
+      <description>Dual 8-bit digital noise. PWM outputs from an Arduino are passed through an RC filter.</description>
     </item>
     
     <item>
@@ -72,7 +78,7 @@
       <pubDate>Tue, 15 Dec 2020 15:03:26 +0100</pubDate>
       
       <guid>https://soundsbrown.github.io/modules/attenuator/</guid>
-      <description></description>
+      <description>Quad attenuator: potentiometer as voltage divider + TL084 buffer. If inputs are not connected, they default to a constant 5V.</description>
     </item>
     
     <item>
@@ -81,7 +87,10 @@
       <pubDate>Tue, 15 Dec 2020 15:03:20 +0100</pubDate>
       
       <guid>https://soundsbrown.github.io/modules/radio/</guid>
-      <description></description>
+      <description>FM radio module based on a TEA5767 module (connected to an Arduino via I2C). Tuner frequency can be controlled by CV or by the knob on the front panel. Current frequency is shown on an Adafruit I2C LED backpack. The antenna is also broken out to the front panel.
+References:
+ https://github.com/simonmonk/arduino_TEA5767 https://www.adafruit.com/product/880  TODO
+ Output volume is too low https://github.com/mathertel/Radio seems more feature-rich than the library I used; is it worth switching?</description>
     </item>
     
     <item>
@@ -90,7 +99,8 @@
       <pubDate>Tue, 15 Dec 2020 15:03:14 +0100</pubDate>
       
       <guid>https://soundsbrown.github.io/modules/evileye/</guid>
-      <description></description>
+      <description>CV source based on a Sharp GP2Y0A60SZLF analog distance sensor. Move your hand (or anything else) in front of the sensor to produce 0-5V output. Can be used to create theremin-esque effects.
+https://www.pololu.com/product/2474</description>
     </item>
     
     <item>
@@ -99,7 +109,8 @@
       <pubDate>Tue, 15 Dec 2020 15:03:07 +0100</pubDate>
       
       <guid>https://soundsbrown.github.io/modules/40106/</guid>
-      <description></description>
+      <description>6 square wave oscillators with frequency knobs and sync inputs. Very common circuit based on 40106 IC.
+https://www.youtube.com/watch?v=DtUCzzjHhgM</description>
     </item>
     
     <item>
@@ -108,7 +119,9 @@
       <pubDate>Tue, 15 Dec 2020 15:02:59 +0100</pubDate>
       
       <guid>https://soundsbrown.github.io/modules/lfo/</guid>
-      <description></description>
+      <description>Arduino-based digital LFO.
+ Rate from 0.01 Hz to 37 Hz using a non-linear scale. Six waveforms: saw, ramp, triangle, square, sine and value noise (Perlin-esque). PWM control for all waveforms. Unipolar output (0V - 5V) through an MCP4725 DAC (I2C interface, 12 bit resolution). Optional status display on an I2C OLED. Output is buffered using a TL08x  References:
+ https://www.sparkfun.com/products/12918 https://github.com/olikraus/U8g2_Arduino  </description>
     </item>
     
     <item>
@@ -118,7 +131,7 @@
       
       <guid>https://soundsbrown.github.io/modules/muxerseq/</guid>
       <description>This is a sequencer-ish module built around a 4051 multiplexer/demultiplexer IC. The IC is basically an 8-way selector switch which connects the COM jack to one of the 8 in/out jacks. The selection is done by setting 3 address bits. The IC works in both directions, so you can send 1 input to 8 alternating outputs, or take 1 output from 8 alternating inputs.
-The module is driven by an Arduino, which consumes the clock input and manages the address lines.</description>
+The module is driven by an Arduino, which consumes the clock input and manages the address lines (each clock pulse advances the sequence to the next step).</description>
     </item>
     
     <item>
@@ -128,7 +141,8 @@ The module is driven by an Arduino, which consumes the clock input and manages t
       
       <guid>https://soundsbrown.github.io/modules/apc/</guid>
       <description>Atari Punk Console with CV mods. I also slapped vactrols on the two pots.
-References: - https://sdiy.info/wiki/Atari_Punk_Console - https://www.instructables.com/Voltage-Controlable-Atari-Punk-Console/</description>
+References:
+ https://sdiy.info/wiki/Atari_Punk_Console https://www.instructables.com/Voltage-Controlable-Atari-Punk-Console/  </description>
     </item>
     
     <item>
@@ -138,8 +152,8 @@ References: - https://sdiy.info/wiki/Atari_Punk_Console - https://www.instructab
       
       <guid>https://soundsbrown.github.io/modules/psu/</guid>
       <description>Case contains an ATX power supply. Front panel breaks out the on/off switch, the standby and power on LEDs, and all the different positive voltages so it can be used like a bench supply.
-References: - https://www.electronics-tutorials.ws/blog/convert-atx-psu-to-bench-supply.html. - Power connectors.
-The backside contains bus boards that distribute +/-12V, +/-5V and GND using 5x2 pin headers and ribbon cables.
+References:
+ https://www.electronics-tutorials.ws/blog/convert-atx-psu-to-bench-supply.html Power connectors  The backside contains bus boards that distribute +/-12V, +/-5V and GND using 5x2 pin headers and ribbon cables.
 TODO: Take a picture of the back.</description>
     </item>
     
@@ -149,11 +163,7 @@ TODO: Take a picture of the back.</description>
       <pubDate>Fri, 23 Oct 2020 00:00:02 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/modules/formfactor/</guid>
-      <description> Eurorack “spec”: http://www.doepfer.de/a100_man/a100m_e.htm
- Ikea RAST = 19x10.5 inch = two rows of 3U modules
- ATX PSU
- Front panels from mandarin crates
-  </description>
+      <description> Eurorack “spec”: http://www.doepfer.de/a100_man/a100m_e.htm Ikea RAST = 19x10.5 inch = two rows of 3U modules ATX PSU Wooden &amp;ldquo;rails&amp;rdquo;, modules are held with wood screws Front panels from mandarin crates  </description>
     </item>
     
     <item>

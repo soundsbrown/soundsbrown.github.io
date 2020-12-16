@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>distance on SoundsBrown</title>
+    <link>https://soundsbrown.github.io/tags/distance/</link>
+    <description>Recent content in distance on SoundsBrown</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 15 Dec 2020 15:03:14 +0100</lastBuildDate>
+    
+	<atom:link href="https://soundsbrown.github.io/tags/distance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Evil Eye</title>
+      <link>https://soundsbrown.github.io/modules/evileye/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:14 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/evileye/</guid>
+      <description>CV source based on a Sharp GP2Y0A60SZLF analog distance sensor. Move your hand (or anything else) in front of the sensor to produce 0-5V output. Can be used to create theremin-esque effects.
+https://www.pololu.com/product/2474</description>
+    </item>
+    
+  </channel>
+</rss>

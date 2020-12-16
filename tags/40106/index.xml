@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>40106 on SoundsBrown</title>
+    <link>https://soundsbrown.github.io/tags/40106/</link>
+    <description>Recent content in 40106 on SoundsBrown</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 15 Dec 2020 15:03:07 +0100</lastBuildDate>
+    
+	<atom:link href="https://soundsbrown.github.io/tags/40106/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>40106 Hex Oscillator</title>
+      <link>https://soundsbrown.github.io/modules/40106/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:07 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/40106/</guid>
+      <description>6 square wave oscillators with frequency knobs and sync inputs. Very common circuit based on 40106 IC.
+https://www.youtube.com/watch?v=DtUCzzjHhgM</description>
+    </item>
+    
+  </channel>
+</rss>

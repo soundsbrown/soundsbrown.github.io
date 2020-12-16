@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wav on SoundsBrown</title>
+    <link>https://soundsbrown.github.io/tags/wav/</link>
+    <description>Recent content in wav on SoundsBrown</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 15 Dec 2020 15:03:48 +0100</lastBuildDate>
+    
+	<atom:link href="https://soundsbrown.github.io/tags/wav/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WAV Trigger</title>
+      <link>https://soundsbrown.github.io/modules/wavtrigger/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:48 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/wavtrigger/</guid>
+      <description>Robertsonics WAV Trigger sampler. SD card stores 16 sound samples. The 16 trigger pins are broken out to jacks on the front panel, so the samples can be fired with CV. The left and right channels of the output are broken out as separate mono jacks, so you could in theory load two completely different sounds in the left and right channels of each WAV file and process them independently in other modules.</description>
+    </item>
+    
+  </channel>
+</rss>

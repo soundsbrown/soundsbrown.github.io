@@ -7,188 +7,188 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 09 Nov 2020 11:00:02 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 15 Dec 2020 15:04:05 +0100</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>apc</title>
-      <link>https://soundsbrown.github.io/tags/apc/</link>
-      <pubDate>Mon, 09 Nov 2020 11:00:02 +0200</pubDate>
+      <title>4046</title>
+      <link>https://soundsbrown.github.io/tags/4046/</link>
+      <pubDate>Tue, 15 Dec 2020 15:04:05 +0100</pubDate>
       
-      <guid>https://soundsbrown.github.io/tags/apc/</guid>
+      <guid>https://soundsbrown.github.io/tags/4046/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>atari</title>
-      <link>https://soundsbrown.github.io/tags/atari/</link>
-      <pubDate>Mon, 09 Nov 2020 11:00:02 +0200</pubDate>
+      <title>oscillator</title>
+      <link>https://soundsbrown.github.io/tags/oscillator/</link>
+      <pubDate>Tue, 15 Dec 2020 15:04:05 +0100</pubDate>
       
-      <guid>https://soundsbrown.github.io/tags/atari/</guid>
+      <guid>https://soundsbrown.github.io/tags/oscillator/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>power</title>
-      <link>https://soundsbrown.github.io/tags/power/</link>
-      <pubDate>Thu, 05 Nov 2020 00:00:02 +0200</pubDate>
+      <title>vco</title>
+      <link>https://soundsbrown.github.io/tags/vco/</link>
+      <pubDate>Tue, 15 Dec 2020 15:04:05 +0100</pubDate>
       
-      <guid>https://soundsbrown.github.io/tags/power/</guid>
+      <guid>https://soundsbrown.github.io/tags/vco/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>psu</title>
-      <link>https://soundsbrown.github.io/tags/psu/</link>
-      <pubDate>Thu, 05 Nov 2020 00:00:02 +0200</pubDate>
+      <title>modulation</title>
+      <link>https://soundsbrown.github.io/tags/modulation/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:57 +0100</pubDate>
       
-      <guid>https://soundsbrown.github.io/tags/psu/</guid>
+      <guid>https://soundsbrown.github.io/tags/modulation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>case</title>
-      <link>https://soundsbrown.github.io/tags/case/</link>
-      <pubDate>Fri, 23 Oct 2020 00:00:02 +0200</pubDate>
+      <title>vca</title>
+      <link>https://soundsbrown.github.io/tags/vca/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:57 +0100</pubDate>
       
-      <guid>https://soundsbrown.github.io/tags/case/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>panel</title>
-      <link>https://soundsbrown.github.io/tags/panel/</link>
-      <pubDate>Fri, 23 Oct 2020 00:00:02 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/panel/</guid>
+      <guid>https://soundsbrown.github.io/tags/vca/</guid>
       <description></description>
     </item>
     
     <item>
       <title>arduino</title>
       <link>https://soundsbrown.github.io/tags/arduino/</link>
-      <pubDate>Mon, 21 Sep 2020 23:53:33 +0200</pubDate>
+      <pubDate>Tue, 15 Dec 2020 15:03:54 +0100</pubDate>
       
       <guid>https://soundsbrown.github.io/tags/arduino/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>bootloader</title>
-      <link>https://soundsbrown.github.io/tags/bootloader/</link>
-      <pubDate>Mon, 21 Sep 2020 23:53:33 +0200</pubDate>
+      <title>bpm</title>
+      <link>https://soundsbrown.github.io/tags/bpm/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:54 +0100</pubDate>
       
-      <guid>https://soundsbrown.github.io/tags/bootloader/</guid>
+      <guid>https://soundsbrown.github.io/tags/bpm/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>ide</title>
-      <link>https://soundsbrown.github.io/tags/ide/</link>
-      <pubDate>Mon, 21 Sep 2020 23:53:33 +0200</pubDate>
+      <title>clock</title>
+      <link>https://soundsbrown.github.io/tags/clock/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:54 +0100</pubDate>
       
-      <guid>https://soundsbrown.github.io/tags/ide/</guid>
+      <guid>https://soundsbrown.github.io/tags/clock/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>pololu</title>
-      <link>https://soundsbrown.github.io/tags/pololu/</link>
-      <pubDate>Mon, 21 Sep 2020 23:53:33 +0200</pubDate>
+      <title>i2c</title>
+      <link>https://soundsbrown.github.io/tags/i2c/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:54 +0100</pubDate>
       
-      <guid>https://soundsbrown.github.io/tags/pololu/</guid>
+      <guid>https://soundsbrown.github.io/tags/i2c/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>programmer</title>
-      <link>https://soundsbrown.github.io/tags/programmer/</link>
-      <pubDate>Mon, 21 Sep 2020 23:53:33 +0200</pubDate>
+      <title>oled</title>
+      <link>https://soundsbrown.github.io/tags/oled/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:54 +0100</pubDate>
       
-      <guid>https://soundsbrown.github.io/tags/programmer/</guid>
+      <guid>https://soundsbrown.github.io/tags/oled/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>stm32</title>
-      <link>https://soundsbrown.github.io/tags/stm32/</link>
-      <pubDate>Mon, 21 Sep 2020 23:27:31 +0200</pubDate>
+      <title>sampler</title>
+      <link>https://soundsbrown.github.io/tags/sampler/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:48 +0100</pubDate>
       
-      <guid>https://soundsbrown.github.io/tags/stm32/</guid>
+      <guid>https://soundsbrown.github.io/tags/sampler/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>3.5mm</title>
-      <link>https://soundsbrown.github.io/tags/3.5mm/</link>
-      <pubDate>Fri, 18 Sep 2020 09:35:49 +0200</pubDate>
+      <title>wav</title>
+      <link>https://soundsbrown.github.io/tags/wav/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:48 +0100</pubDate>
       
-      <guid>https://soundsbrown.github.io/tags/3.5mm/</guid>
+      <guid>https://soundsbrown.github.io/tags/wav/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>connector</title>
-      <link>https://soundsbrown.github.io/tags/connector/</link>
-      <pubDate>Fri, 18 Sep 2020 09:35:49 +0200</pubDate>
+      <title>4017</title>
+      <link>https://soundsbrown.github.io/tags/4017/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:41 +0100</pubDate>
       
-      <guid>https://soundsbrown.github.io/tags/connector/</guid>
+      <guid>https://soundsbrown.github.io/tags/4017/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>jack</title>
-      <link>https://soundsbrown.github.io/tags/jack/</link>
-      <pubDate>Fri, 18 Sep 2020 09:35:49 +0200</pubDate>
+      <title>sequencer</title>
+      <link>https://soundsbrown.github.io/tags/sequencer/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:41 +0100</pubDate>
       
-      <guid>https://soundsbrown.github.io/tags/jack/</guid>
+      <guid>https://soundsbrown.github.io/tags/sequencer/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>buffer</title>
-      <link>https://soundsbrown.github.io/tags/buffer/</link>
-      <pubDate>Tue, 15 Sep 2020 21:21:09 +0200</pubDate>
+      <title>noise</title>
+      <link>https://soundsbrown.github.io/tags/noise/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:33 +0100</pubDate>
       
-      <guid>https://soundsbrown.github.io/tags/buffer/</guid>
+      <guid>https://soundsbrown.github.io/tags/noise/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>isolation</title>
-      <link>https://soundsbrown.github.io/tags/isolation/</link>
-      <pubDate>Tue, 15 Sep 2020 21:21:09 +0200</pubDate>
+      <title>pwm</title>
+      <link>https://soundsbrown.github.io/tags/pwm/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:33 +0100</pubDate>
       
-      <guid>https://soundsbrown.github.io/tags/isolation/</guid>
+      <guid>https://soundsbrown.github.io/tags/pwm/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>optocoupler</title>
-      <link>https://soundsbrown.github.io/tags/optocoupler/</link>
-      <pubDate>Tue, 15 Sep 2020 21:21:09 +0200</pubDate>
+      <title>attenuator</title>
+      <link>https://soundsbrown.github.io/tags/attenuator/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:26 +0100</pubDate>
       
-      <guid>https://soundsbrown.github.io/tags/optocoupler/</guid>
+      <guid>https://soundsbrown.github.io/tags/attenuator/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>diode</title>
-      <link>https://soundsbrown.github.io/tags/diode/</link>
-      <pubDate>Fri, 11 Sep 2020 22:43:45 +0200</pubDate>
+      <title>fm</title>
+      <link>https://soundsbrown.github.io/tags/fm/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:20 +0100</pubDate>
       
-      <guid>https://soundsbrown.github.io/tags/diode/</guid>
+      <guid>https://soundsbrown.github.io/tags/fm/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>opamp</title>
-      <link>https://soundsbrown.github.io/tags/opamp/</link>
-      <pubDate>Fri, 11 Sep 2020 22:43:45 +0200</pubDate>
+      <title>radio</title>
+      <link>https://soundsbrown.github.io/tags/radio/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:20 +0100</pubDate>
       
-      <guid>https://soundsbrown.github.io/tags/opamp/</guid>
+      <guid>https://soundsbrown.github.io/tags/radio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>distance</title>
+      <link>https://soundsbrown.github.io/tags/distance/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:14 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/distance/</guid>
       <description></description>
     </item>
     

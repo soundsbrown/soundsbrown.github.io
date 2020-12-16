@@ -8,25 +8,31 @@
 	<meta name="theme-color" content="#73573e">
 	<meta name="msapplication-TileColor" content="#73573e">
 <meta itemprop="name" content="LFO">
-<meta itemprop="description" content="">
+<meta itemprop="description" content="Arduino-based digital LFO.
+ Rate from 0.01 Hz to 37 Hz using a non-linear scale. Six waveforms: saw, ramp, triangle, square, sine and value noise (Perlin-esque). PWM control for all waveforms. Unipolar output (0V - 5V) through an MCP4725 DAC (I2C interface, 12 bit resolution). Optional status display on an I2C OLED. Output is buffered using a TL08x  References:
+ https://www.sparkfun.com/products/12918 https://github.com/olikraus/U8g2_Arduino  ">
 
 
 <meta itemprop="datePublished" content="2020-12-15T15:02:59&#43;01:00" />
 <meta itemprop="dateModified" content="2020-12-15T15:02:59&#43;01:00" />
-<meta itemprop="wordCount" content="0">
+<meta itemprop="wordCount" content="60">
 
 
 
-<meta itemprop="keywords" content="" />
+<meta itemprop="keywords" content="lfo,oscillator,arduino,oled,i2c,dac,mcp4725," />
 <meta property="og:title" content="LFO" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="Arduino-based digital LFO.
+ Rate from 0.01 Hz to 37 Hz using a non-linear scale. Six waveforms: saw, ramp, triangle, square, sine and value noise (Perlin-esque). PWM control for all waveforms. Unipolar output (0V - 5V) through an MCP4725 DAC (I2C interface, 12 bit resolution). Optional status display on an I2C OLED. Output is buffered using a TL08x  References:
+ https://www.sparkfun.com/products/12918 https://github.com/olikraus/U8g2_Arduino  " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://soundsbrown.github.io/modules/lfo/" />
 <meta property="article:published_time" content="2020-12-15T15:02:59+01:00" />
 <meta property="article:modified_time" content="2020-12-15T15:02:59+01:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="LFO"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="Arduino-based digital LFO.
+ Rate from 0.01 Hz to 37 Hz using a non-linear scale. Six waveforms: saw, ramp, triangle, square, sine and value noise (Perlin-esque). PWM control for all waveforms. Unipolar output (0V - 5V) through an MCP4725 DAC (I2C interface, 12 bit resolution). Optional status display on an I2C OLED. Output is buffered using a TL08x  References:
+ https://www.sparkfun.com/products/12918 https://github.com/olikraus/U8g2_Arduino  "/>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -80,6 +86,24 @@
 		<h1>LFO</h1>
 		<div class="content">
 			<p><img src="/images/modules/lfo.png"/></p>
+
+<p>Arduino-based digital LFO.</p>
+
+<ul>
+<li>Rate from 0.01 Hz to 37 Hz using a non-linear scale.</li>
+<li>Six waveforms: saw, ramp, triangle, square, sine and value noise (Perlin-esque).</li>
+<li>PWM control for all waveforms.</li>
+<li>Unipolar output (0V - 5V) through an MCP4725 DAC (I2C interface, 12 bit resolution).</li>
+<li>Optional status display on an I2C OLED.</li>
+<li>Output is <a href="/circuits/buffers/">buffered</a> using a TL08x</li>
+</ul>
+
+<p>References:</p>
+
+<ul>
+<li><a href="https://www.sparkfun.com/products/12918">https://www.sparkfun.com/products/12918</a></li>
+<li><a href="https://github.com/olikraus/U8g2_Arduino">https://github.com/olikraus/U8g2_Arduino</a></li>
+</ul>
 
 		</div>
 	</main>

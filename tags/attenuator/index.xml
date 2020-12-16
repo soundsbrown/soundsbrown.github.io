@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>attenuator on SoundsBrown</title>
+    <link>https://soundsbrown.github.io/tags/attenuator/</link>
+    <description>Recent content in attenuator on SoundsBrown</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 15 Dec 2020 15:03:26 +0100</lastBuildDate>
+    
+	<atom:link href="https://soundsbrown.github.io/tags/attenuator/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Attenuator</title>
+      <link>https://soundsbrown.github.io/modules/attenuator/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:26 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/attenuator/</guid>
+      <description>Quad attenuator: potentiometer as voltage divider + TL084 buffer. If inputs are not connected, they default to a constant 5V.</description>
+    </item>
+    
+  </channel>
+</rss>

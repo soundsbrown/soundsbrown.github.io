@@ -19,8 +19,8 @@
       
       <guid>https://soundsbrown.github.io/modules/psu/</guid>
       <description>Case contains an ATX power supply. Front panel breaks out the on/off switch, the standby and power on LEDs, and all the different positive voltages so it can be used like a bench supply.
-References: - https://www.electronics-tutorials.ws/blog/convert-atx-psu-to-bench-supply.html. - Power connectors.
-The backside contains bus boards that distribute +/-12V, +/-5V and GND using 5x2 pin headers and ribbon cables.
+References:
+ https://www.electronics-tutorials.ws/blog/convert-atx-psu-to-bench-supply.html Power connectors  The backside contains bus boards that distribute +/-12V, +/-5V and GND using 5x2 pin headers and ribbon cables.
 TODO: Take a picture of the back.</description>
     </item>
     
@@ -30,11 +30,7 @@ TODO: Take a picture of the back.</description>
       <pubDate>Fri, 23 Oct 2020 00:00:02 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/modules/formfactor/</guid>
-      <description> Eurorack “spec”: http://www.doepfer.de/a100_man/a100m_e.htm
- Ikea RAST = 19x10.5 inch = two rows of 3U modules
- ATX PSU
- Front panels from mandarin crates
-  </description>
+      <description> Eurorack “spec”: http://www.doepfer.de/a100_man/a100m_e.htm Ikea RAST = 19x10.5 inch = two rows of 3U modules ATX PSU Wooden &amp;ldquo;rails&amp;rdquo;, modules are held with wood screws Front panels from mandarin crates  </description>
     </item>
     
     <item>

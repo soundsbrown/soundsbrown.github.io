@@ -7,10 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 21 Sep 2020 23:53:33 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 15 Dec 2020 15:03:54 +0100</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Clock Source</title>
+      <link>https://soundsbrown.github.io/modules/clocks/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:54 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/clocks/</guid>
+      <description>Arduino-based quad clock pulse generator. The topmost knob sets the master tempo in BPM. The other three channels are derived from the master with a multiplier that can range from 1&amp;frasl;16 to 16. The settings for each channel are shown on an I2C OLED display. Output for each channel is a 5V square wave with 50% duty cycle.</description>
+    </item>
+    
+    <item>
+      <title>White Noise</title>
+      <link>https://soundsbrown.github.io/modules/noise/</link>
+      <pubDate>Tue, 15 Dec 2020 15:03:33 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/noise/</guid>
+      <description>Dual 8-bit digital noise. PWM outputs from an Arduino are passed through an RC filter.</description>
+    </item>
+    
+    <item>
+      <title>LFO</title>
+      <link>https://soundsbrown.github.io/modules/lfo/</link>
+      <pubDate>Tue, 15 Dec 2020 15:02:59 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/lfo/</guid>
+      <description>Arduino-based digital LFO.
+ Rate from 0.01 Hz to 37 Hz using a non-linear scale. Six waveforms: saw, ramp, triangle, square, sine and value noise (Perlin-esque). PWM control for all waveforms. Unipolar output (0V - 5V) through an MCP4725 DAC (I2C interface, 12 bit resolution). Optional status display on an I2C OLED. Output is buffered using a TL08x  References:
+ https://www.sparkfun.com/products/12918 https://github.com/olikraus/U8g2_Arduino  </description>
+    </item>
+    
+    <item>
+      <title>Muxer Sequencer</title>
+      <link>https://soundsbrown.github.io/modules/muxerseq/</link>
+      <pubDate>Tue, 15 Dec 2020 15:02:51 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/muxerseq/</guid>
+      <description>This is a sequencer-ish module built around a 4051 multiplexer/demultiplexer IC. The IC is basically an 8-way selector switch which connects the COM jack to one of the 8 in/out jacks. The selection is done by setting 3 address bits. The IC works in both directions, so you can send 1 input to 8 alternating outputs, or take 1 output from 8 alternating inputs.
+The module is driven by an Arduino, which consumes the clock input and manages the address lines (each clock pulse advances the sequence to the next step).</description>
+    </item>
     
     <item>
       <title>Burning bootloaders</title>

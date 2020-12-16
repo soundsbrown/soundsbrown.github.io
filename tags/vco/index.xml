@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vco on SoundsBrown</title>
+    <link>https://soundsbrown.github.io/tags/vco/</link>
+    <description>Recent content in vco on SoundsBrown</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 15 Dec 2020 15:04:05 +0100</lastBuildDate>
+    
+	<atom:link href="https://soundsbrown.github.io/tags/vco/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>4046 VCO</title>
+      <link>https://soundsbrown.github.io/modules/4046/</link>
+      <pubDate>Tue, 15 Dec 2020 15:04:05 +0100</pubDate>
+      
+      <guid>https://soundsbrown.github.io/modules/4046/</guid>
+      <description>VCO based on a 4046 IC.
+https://hackaday.com/2015/08/07/logic-noise-4046-voltage-controlled-oscillator-part-one/
+TODO:
+ Pitch is wildly unstable, buffer the CV input? See https://www.youtube.com/watch?v=3ZLcbhSE1pc  </description>
+    </item>
+    
+  </channel>
+</rss>

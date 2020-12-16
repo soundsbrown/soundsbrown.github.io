@@ -7,20 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 28 Oct 2019 21:35:44 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 15 Dec 2020 15:02:59 +0100</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/tags/lfo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>LFO</title>
-      <link>https://soundsbrown.github.io/modules/hello/</link>
-      <pubDate>Mon, 28 Oct 2019 21:35:44 +0200</pubDate>
+      <link>https://soundsbrown.github.io/modules/lfo/</link>
+      <pubDate>Tue, 15 Dec 2020 15:02:59 +0100</pubDate>
       
-      <guid>https://soundsbrown.github.io/modules/hello/</guid>
-      <description>H2 Hello friends!
-H3 I built an LFO!
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vestibulum sodales varius. In id rutrum ligula. Nulla commodo non lacus in mattis. Suspendisse pretium semper quam non fringilla. Donec maximus augue et porta porttitor. Vivamus vel lobortis magna, eget consectetur odio. Integer sit amet mauris vulputate, venenatis metus porta, finibus diam. Vestibulum risus ante, consequat in auctor condimentum, rutrum in metus. Donec at velit euismod nulla malesuada blandit at quis tellus.</description>
+      <guid>https://soundsbrown.github.io/modules/lfo/</guid>
+      <description>Arduino-based digital LFO.
+ Rate from 0.01 Hz to 37 Hz using a non-linear scale. Six waveforms: saw, ramp, triangle, square, sine and value noise (Perlin-esque). PWM control for all waveforms. Unipolar output (0V - 5V) through an MCP4725 DAC (I2C interface, 12 bit resolution). Optional status display on an I2C OLED. Output is buffered using a TL08x  References:
+ https://www.sparkfun.com/products/12918 https://github.com/olikraus/U8g2_Arduino  </description>
     </item>
     
   </channel>
