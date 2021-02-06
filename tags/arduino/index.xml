@@ -103,7 +103,7 @@ Arduino MKR Zero pinout https://store.arduino.cc/arduino-mkr-zero-i2s-bus-sd-for
       <pubDate>Fri, 04 Sep 2020 15:05:44 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/circuits/rcfilter/</guid>
-      <description>References  R and C value calculator:  http://sim.okawa-denshi.jp/en/PWMtool.php  About Arduino PWM outputs:
+      <description>References  https://www.electronics-tutorials.ws/filter/filter_2.html R and C value calculator:  http://sim.okawa-denshi.jp/en/PWMtool.php  About Arduino PWM outputs:
  https://playground.arduino.cc/Code/PwmFrequency/ https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM   Arduino PWM PWM base frequency:
  Pins 5 and 6: 62500 Hz Pins 3, 9, 10, and 11 is 31250 Hz Prescaler defaults to 64, resulting in default PWM rates of approximately 976 Hz and 488 Hz Changing the prescaler allows higher PWM rates, but may affect the behavior of micros(), delay(), et al.</description>
     </item>
