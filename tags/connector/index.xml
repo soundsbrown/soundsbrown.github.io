@@ -29,7 +29,7 @@ Thonkiconn </description>
       <pubDate>Fri, 04 Sep 2020 17:16:11 +0200</pubDate>
       
       <guid>https://soundsbrown.github.io/components/power/</guid>
-      <description> ATX Eurorack My power bus Voltage regulators </description>
+      <description> ATX Eurorack My power bus Voltage regulators Wiring color conventions     DC AC     POS Red Brown   NEG Black Blue   GND Yellow/green Yellow/green    </description>
     </item>
     
   </channel>
