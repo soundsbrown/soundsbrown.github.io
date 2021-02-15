@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://soundsbrown.github.io/circuits/</loc>
+    <lastmod>2021-01-15T21:21:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/circuits/midi/</loc>
+    <lastmod>2021-01-15T21:21:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/midi/</loc>
+    <lastmod>2021-01-15T21:21:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/optocoupler/</loc>
+    <lastmod>2021-01-15T21:21:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/</loc>
+    <lastmod>2021-01-15T21:21:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/</loc>
+    <lastmod>2021-01-15T21:21:09+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://soundsbrown.github.io/tags/4046/</loc>
     <lastmod>2020-12-15T15:04:05+01:00</lastmod>
   </url>
@@ -19,16 +49,6 @@
   
   <url>
     <loc>https://soundsbrown.github.io/tags/oscillator/</loc>
-    <lastmod>2020-12-15T15:04:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/</loc>
-    <lastmod>2020-12-15T15:04:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/tags/</loc>
     <lastmod>2020-12-15T15:04:05+01:00</lastmod>
   </url>
   
@@ -353,17 +373,7 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/circuits/</loc>
-    <lastmod>2020-09-15T21:21:09+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://soundsbrown.github.io/tags/isolation/</loc>
-    <lastmod>2020-09-15T21:21:09+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/tags/optocoupler/</loc>
     <lastmod>2020-09-15T21:21:09+02:00</lastmod>
   </url>
   

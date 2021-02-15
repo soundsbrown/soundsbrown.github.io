@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 15 Dec 2020 15:04:05 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 15 Jan 2021 21:21:09 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>midi</title>
+      <link>https://soundsbrown.github.io/tags/midi/</link>
+      <pubDate>Fri, 15 Jan 2021 21:21:09 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/midi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>optocoupler</title>
+      <link>https://soundsbrown.github.io/tags/optocoupler/</link>
+      <pubDate>Fri, 15 Jan 2021 21:21:09 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/optocoupler/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>4046</title>
@@ -171,24 +189,6 @@
       <pubDate>Tue, 15 Dec 2020 15:03:20 +0100</pubDate>
       
       <guid>https://soundsbrown.github.io/tags/fm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>radio</title>
-      <link>https://soundsbrown.github.io/tags/radio/</link>
-      <pubDate>Tue, 15 Dec 2020 15:03:20 +0100</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/radio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>distance</title>
-      <link>https://soundsbrown.github.io/tags/distance/</link>
-      <pubDate>Tue, 15 Dec 2020 15:03:14 +0100</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/distance/</guid>
       <description></description>
     </item>
     
