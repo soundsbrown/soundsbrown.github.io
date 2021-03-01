@@ -33,5 +33,16 @@ In Arduino IDE:
       <description> Installing a dark theme  Clone or download https://github.com/jeffThompson/DarkArduinoTheme Backup C:\Program Files (x86)\Arduino\lib\theme Overwrite with the theme directory from DarkArduinoTheme  </description>
     </item>
     
+    <item>
+      <title>PlatformIO and VS Code</title>
+      <link>https://soundsbrown.github.io/software/platformio/</link>
+      <pubDate>Sat, 19 Sep 2020 23:15:23 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/software/platformio/</guid>
+      <description>Setup To create a new project, go to the destination directory and run: pio init -b nanoatmega328 --ide vscode
+This will create the necessary files, including a platformio.ini which will look like this:
+[env:nanoatmega328] platform = atmelavr board = nanoatmega328 framework = arduino lib_deps = Wire, SPI, olikraus/U8g2@^2.28.8, Adafruit MCP4725  Libraries The lib_deps field is not created by default and needs to be maintained manually. Use pio lib search (try with -h for available options) to find out by which name a library can be imported.</description>
+    </item>
+    
   </channel>
 </rss>
