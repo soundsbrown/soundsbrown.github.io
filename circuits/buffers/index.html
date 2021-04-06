@@ -9,19 +9,19 @@
 	<meta name="msapplication-TileColor" content="#73573e">
 <meta itemprop="name" content="Op amps as buffers / voltage followers">
 <meta itemprop="description" content="Circuit Op amps Pinouts    Op amp Pinout     LM741    TL072TL082    TL074TL084LM324     Application notes Supply voltage is important:
- All tested amps max out at somewhere between 3V and 4V when using a 5V supply. Use 12V and put other components (e.g. Arduino) behind a regulator! When using unipolar (0-12V) supply:  LM741 floors at 2V or so &ndash; anything below that gets clamped.">
+ All tested amps max out at somewhere between 3V and 4V when using a 5V supply. Use &#43;/-12V and use a 5V regulator or the 5V output of an Arduino where needed! When using unipolar (0-12V) supply:  LM741 floors at 2V or so &ndash; anything below that gets clamped.">
 
 
 <meta itemprop="datePublished" content="2020-09-04T15:05:44&#43;02:00" />
 <meta itemprop="dateModified" content="2020-09-04T15:05:44&#43;02:00" />
-<meta itemprop="wordCount" content="99">
+<meta itemprop="wordCount" content="107">
 
 
 
 <meta itemprop="keywords" content="opamp,buffer,voltage,follower,isolation," />
 <meta property="og:title" content="Op amps as buffers / voltage followers" />
 <meta property="og:description" content="Circuit Op amps Pinouts    Op amp Pinout     LM741    TL072TL082    TL074TL084LM324     Application notes Supply voltage is important:
- All tested amps max out at somewhere between 3V and 4V when using a 5V supply. Use 12V and put other components (e.g. Arduino) behind a regulator! When using unipolar (0-12V) supply:  LM741 floors at 2V or so &ndash; anything below that gets clamped." />
+ All tested amps max out at somewhere between 3V and 4V when using a 5V supply. Use &#43;/-12V and use a 5V regulator or the 5V output of an Arduino where needed! When using unipolar (0-12V) supply:  LM741 floors at 2V or so &ndash; anything below that gets clamped." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://soundsbrown.github.io/circuits/buffers/" />
 <meta property="article:published_time" content="2020-09-04T15:05:44+02:00" />
@@ -29,7 +29,7 @@
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Op amps as buffers / voltage followers"/>
 <meta name="twitter:description" content="Circuit Op amps Pinouts    Op amp Pinout     LM741    TL072TL082    TL074TL084LM324     Application notes Supply voltage is important:
- All tested amps max out at somewhere between 3V and 4V when using a 5V supply. Use 12V and put other components (e.g. Arduino) behind a regulator! When using unipolar (0-12V) supply:  LM741 floors at 2V or so &ndash; anything below that gets clamped."/>
+ All tested amps max out at somewhere between 3V and 4V when using a 5V supply. Use &#43;/-12V and use a 5V regulator or the 5V output of an Arduino where needed! When using unipolar (0-12V) supply:  LM741 floors at 2V or so &ndash; anything below that gets clamped."/>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -123,13 +123,13 @@
 <p>Supply voltage is important:</p>
 
 <ul>
-<li>All tested amps max out at somewhere between 3V and 4V when using a 5V supply. Use 12V and put other components (e.g. Arduino) behind a regulator!</li>
+<li>All tested amps max out at somewhere between 3V and 4V when using a 5V supply. Use +/-12V and use a 5V regulator or the 5V output of an Arduino where needed!</li>
 <li>When using unipolar (0-12V) supply:
 
 <ul>
 <li>LM741 floors at 2V or so &ndash; anything below that gets clamped.</li>
-<li>TL07x inverts below 1.5V or so (i.e. <code>X</code> turns into <code>12V - X</code> when <code>X &lt; 1.5V</code>)</li>
-<li>TL08x and LM32x both seem very reliable, for CV as well as audio</li>
+<li>TL0xx inverts below 1.5V or so (i.e. <code>X</code> turns into <code>12V - X</code> when <code>X &lt; 1.5V</code>)
+Other than that, TL08x and LM32x both seem very reliable, for CV as well as audio</li>
 </ul></li>
 </ul>
 

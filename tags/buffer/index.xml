@@ -40,7 +40,7 @@ General  Pass I/O connectors through diodes before they connect to the circuit. 
       
       <guid>https://soundsbrown.github.io/circuits/buffers/</guid>
       <description>Circuit Op amps Pinouts    Op amp Pinout     LM741    TL072TL082    TL074TL084LM324     Application notes Supply voltage is important:
- All tested amps max out at somewhere between 3V and 4V when using a 5V supply. Use 12V and put other components (e.g. Arduino) behind a regulator! When using unipolar (0-12V) supply:  LM741 floors at 2V or so &amp;ndash; anything below that gets clamped.</description>
+ All tested amps max out at somewhere between 3V and 4V when using a 5V supply. Use +/-12V and use a 5V regulator or the 5V output of an Arduino where needed! When using unipolar (0-12V) supply:  LM741 floors at 2V or so &amp;ndash; anything below that gets clamped.</description>
     </item>
     
   </channel>
