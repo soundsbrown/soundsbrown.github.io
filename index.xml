@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 15 Jan 2021 21:21:09 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 10 Apr 2021 14:43:45 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Power supply</title>
+      <link>https://soundsbrown.github.io/circuits/psu/</link>
+      <pubDate>Sat, 10 Apr 2021 14:43:45 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/circuits/psu/</guid>
+      <description>Power supply is as follows:
+ ATX PSU Fuse board  https://cdn.sparkfun.com/datasheets/Kits/Benchtop%20Power%20Supply-v13.pdf I omitted the LED on the 5V rail and added two on the PWR_OK and 5VSB pins  Regulation and filtering board  Adapted from  https://www.dropbox.com/s/pjoshuv31grkixq/Schematic_%2B-12v%20larger%20with%205v_%2B-12%20Volt%20Power%20Supply_20200217210146.pdf?dl=0 https://syntherjack.net/modular-synth-wall-wart-psu/ http://www.modularsynth.ru/en/diy/regulated_bipolar_psu/  See brownnote/kicad/psu  Bus board  Just stripboard with 5x2 headers   </description>
+    </item>
     
     <item>
       <title>MIDI</title>
@@ -209,15 +219,6 @@ Unzipped into C:\Users\Tom\Documents\Arduino\hardware\Arduino_STM32-1.0.0
 Executed drivers/win/install_drivers.bat
 Jumpers on board are both set to 0
 Pinout </description>
-    </item>
-    
-    <item>
-      <title>Arduino IDE</title>
-      <link>https://soundsbrown.github.io/software/arduino_ide/</link>
-      <pubDate>Sat, 19 Sep 2020 23:15:23 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/software/arduino_ide/</guid>
-      <description> Installing a dark theme  Clone or download https://github.com/jeffThompson/DarkArduinoTheme Backup C:\Program Files (x86)\Arduino\lib\theme Overwrite with the theme directory from DarkArduinoTheme  </description>
     </item>
     
   </channel>

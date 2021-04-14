@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 15 Jan 2021 21:21:09 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 10 Apr 2021 14:43:45 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>atx</title>
+      <link>https://soundsbrown.github.io/tags/atx/</link>
+      <pubDate>Sat, 10 Apr 2021 14:43:45 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/atx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bus</title>
+      <link>https://soundsbrown.github.io/tags/bus/</link>
+      <pubDate>Sat, 10 Apr 2021 14:43:45 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/bus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>power</title>
+      <link>https://soundsbrown.github.io/tags/power/</link>
+      <pubDate>Sat, 10 Apr 2021 14:43:45 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/power/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>psu</title>
+      <link>https://soundsbrown.github.io/tags/psu/</link>
+      <pubDate>Sat, 10 Apr 2021 14:43:45 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/psu/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>midi</title>
@@ -153,42 +189,6 @@
       <pubDate>Tue, 15 Dec 2020 15:03:41 +0100</pubDate>
       
       <guid>https://soundsbrown.github.io/tags/sequencer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>noise</title>
-      <link>https://soundsbrown.github.io/tags/noise/</link>
-      <pubDate>Tue, 15 Dec 2020 15:03:33 +0100</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/noise/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pwm</title>
-      <link>https://soundsbrown.github.io/tags/pwm/</link>
-      <pubDate>Tue, 15 Dec 2020 15:03:33 +0100</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/pwm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>attenuator</title>
-      <link>https://soundsbrown.github.io/tags/attenuator/</link>
-      <pubDate>Tue, 15 Dec 2020 15:03:26 +0100</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/attenuator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>fm</title>
-      <link>https://soundsbrown.github.io/tags/fm/</link>
-      <pubDate>Tue, 15 Dec 2020 15:03:20 +0100</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/fm/</guid>
       <description></description>
     </item>
     
