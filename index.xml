@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 10 Apr 2021 14:43:45 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 20 Apr 2021 12:12:20 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Generating audio</title>
+      <link>https://soundsbrown.github.io/mcus/arduino/</link>
+      <pubDate>Tue, 20 Apr 2021 12:12:20 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/mcus/arduino/</guid>
+      <description>Implementing a VCO using an Arduino is apparently trickier than one might expect.
+Using a DAC Neither I2C (e.g. MCP4725) nor SPI (e.g. MCP4922) are fast enough to generate audio-rate waveforms. Do not expect to achieve more than, say, 200 Hz.
+I2S I have thusfar been unable to produce any output with the I2S DAC I have and an MKRZERO. Perhaps try omitting the DAC and verify whether the I2S pins produce any signal at all.</description>
+    </item>
     
     <item>
       <title>Power supply</title>
@@ -202,18 +213,6 @@ TODO: Take a picture of the back.</description>
       
       <guid>https://soundsbrown.github.io/modules/formfactor/</guid>
       <description> Eurorack “spec”: http://www.doepfer.de/a100_man/a100m_e.htm Ikea RAST = 19x10.5 inch = two rows of 3U modules ATX PSU Wooden &amp;ldquo;rails&amp;rdquo;, modules are held with wood screws Front panels from mandarin crates  </description>
-    </item>
-    
-    <item>
-      <title>Burning bootloaders</title>
-      <link>https://soundsbrown.github.io/mcus/burning/</link>
-      <pubDate>Mon, 21 Sep 2020 23:53:33 +0200</pubDate>
-      
-      <guid>https://soundsbrown.github.io/mcus/burning/</guid>
-      <description>In Pololu config utility:
- Enable VCC output Set regulator mode to 5V  Insert cable the right way around:
-In Arduino IDE:
- Board: Arduino Uno Programmer: Atmel STK500 Always use “Upload using programmer” Use first of two COM ports (e.g. COM9 if it advertises 9 and 10) Burning bootloader also just works  </description>
     </item>
     
   </channel>

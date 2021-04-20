@@ -7,29 +7,32 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="theme-color" content="#73573e">
 	<meta name="msapplication-TileColor" content="#73573e">
-<meta itemprop="name" content="Arduino">
-<meta itemprop="description" content="Arduino Nano pinout https://store.arduino.cc/arduino-nano
-Arduino MKR Zero pinout https://store.arduino.cc/arduino-mkr-zero-i2s-bus-sd-for-sound-music-digital-audio-data">
+<meta itemprop="name" content="Generating audio">
+<meta itemprop="description" content="Implementing a VCO using an Arduino is apparently trickier than one might expect.
+Using a DAC Neither I2C (e.g. MCP4725) nor SPI (e.g. MCP4922) are fast enough to generate audio-rate waveforms. Do not expect to achieve more than, say, 200 Hz.
+I2S I have thusfar been unable to produce any output with the I2S DAC I have and an MKRZERO. Perhaps try omitting the DAC and verify whether the I2S pins produce any signal at all.">
 
 
-<meta itemprop="datePublished" content="2020-09-11T12:12:20&#43;02:00" />
-<meta itemprop="dateModified" content="2020-09-11T12:12:20&#43;02:00" />
-<meta itemprop="wordCount" content="9">
+<meta itemprop="datePublished" content="2021-04-20T12:12:20&#43;02:00" />
+<meta itemprop="dateModified" content="2021-04-20T12:12:20&#43;02:00" />
+<meta itemprop="wordCount" content="133">
 
 
 
-<meta itemprop="keywords" content="arduino,nano,pinout," />
-<meta property="og:title" content="Arduino" />
-<meta property="og:description" content="Arduino Nano pinout https://store.arduino.cc/arduino-nano
-Arduino MKR Zero pinout https://store.arduino.cc/arduino-mkr-zero-i2s-bus-sd-for-sound-music-digital-audio-data" />
+<meta itemprop="keywords" content="mcu,i2s,i2c,rcfilter,pwm,mozzi,dac," />
+<meta property="og:title" content="Generating audio" />
+<meta property="og:description" content="Implementing a VCO using an Arduino is apparently trickier than one might expect.
+Using a DAC Neither I2C (e.g. MCP4725) nor SPI (e.g. MCP4922) are fast enough to generate audio-rate waveforms. Do not expect to achieve more than, say, 200 Hz.
+I2S I have thusfar been unable to produce any output with the I2S DAC I have and an MKRZERO. Perhaps try omitting the DAC and verify whether the I2S pins produce any signal at all." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://soundsbrown.github.io/mcus/arduino/" />
-<meta property="article:published_time" content="2020-09-11T12:12:20+02:00" />
-<meta property="article:modified_time" content="2020-09-11T12:12:20+02:00" />
+<meta property="article:published_time" content="2021-04-20T12:12:20+02:00" />
+<meta property="article:modified_time" content="2021-04-20T12:12:20+02:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Arduino"/>
-<meta name="twitter:description" content="Arduino Nano pinout https://store.arduino.cc/arduino-nano
-Arduino MKR Zero pinout https://store.arduino.cc/arduino-mkr-zero-i2s-bus-sd-for-sound-music-digital-audio-data"/>
+<meta name="twitter:title" content="Generating audio"/>
+<meta name="twitter:description" content="Implementing a VCO using an Arduino is apparently trickier than one might expect.
+Using a DAC Neither I2C (e.g. MCP4725) nor SPI (e.g. MCP4922) are fast enough to generate audio-rate waveforms. Do not expect to achieve more than, say, 200 Hz.
+I2S I have thusfar been unable to produce any output with the I2S DAC I have and an MKRZERO. Perhaps try omitting the DAC and verify whether the I2S pins produce any signal at all."/>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -38,7 +41,7 @@ Arduino MKR Zero pinout https://store.arduino.cc/arduino-mkr-zero-i2s-bus-sd-for
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
 	<link rel="shortcut icon" href="/favicon.ico">
 
-	<title>Arduino</title>
+	<title>Generating audio</title>
 	<link rel="stylesheet" href="https://soundsbrown.github.io/css/style.min.95994f01f1c18fe3d76bd88a64c5e211b8f87e674fe9079b127a6b566461ddb3.css" integrity="sha256-lZlPAfHBj+PXa9iKZMXiEbj4fmdP6QebEnprVmRh3bM=" crossorigin="anonymous">
 	
 </head>
@@ -80,21 +83,31 @@ Arduino MKR Zero pinout https://store.arduino.cc/arduino-mkr-zero-i2s-bus-sd-for
 
 
 	<main class="site-main section-inner thin animated fadeIn faster">
-		<h1>Arduino</h1>
+		<h1>Generating audio</h1>
 		<div class="content">
 			
 
-<h2 id="arduino-nano-pinout">Arduino Nano pinout<a href="#arduino-nano-pinout" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Implementing a VCO using an Arduino is apparently trickier than one might expect.</p>
 
-<p><img src="/images/cheats/arduino_nano_pinout.jpg"/></p>
+<h2 id="using-a-dac">Using a DAC<a href="#using-a-dac" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
 
-<p><a href="https://store.arduino.cc/arduino-nano">https://store.arduino.cc/arduino-nano</a></p>
+<p>Neither I2C (e.g. MCP4725) nor SPI (e.g. MCP4922) are fast enough to generate audio-rate waveforms. Do not expect to achieve more than, say, 200 Hz.</p>
 
-<h2 id="arduino-mkr-zero-pinout">Arduino MKR Zero pinout<a href="#arduino-mkr-zero-pinout" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<h2 id="i2s">I2S<a href="#i2s" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
 
-<p><img src="/images/cheats/Pinout-MKRZERO_latest.png"/></p>
+<p>I have thusfar been unable to produce any output with the I2S DAC I have and an MKRZERO. Perhaps try omitting the DAC and verify whether the I2S pins produce any signal at all. Is the DAC broken?</p>
 
-<p><a href="https://store.arduino.cc/arduino-mkr-zero-i2s-bus-sd-for-sound-music-digital-audio-data">https://store.arduino.cc/arduino-mkr-zero-i2s-bus-sd-for-sound-music-digital-audio-data</a></p>
+<h2 id="mozzi">Mozzi<a href="#mozzi" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+
+<p>See <a href="https://sensorium.github.io/Mozzi/">https://sensorium.github.io/Mozzi/</a></p>
+
+<p>This works reasonably, although it sounds very lo-fi. Might be worth exploring the &ldquo;dual PWM&rdquo; mode.</p>
+
+<p>Note that they recommend using an RC filter with R=270Ω and C=100nF (code = 104).</p>
+
+<h2 id="other">Other<a href="#other" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+
+<p>Look into other platforms: ESP32, Teensy, Raspberry Pi Pico. All of these should be more capable than Arduino.</p>
 
 		</div>
 	</main>

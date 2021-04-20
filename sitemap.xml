@@ -3,6 +3,61 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://soundsbrown.github.io/tags/dac/</loc>
+    <lastmod>2021-04-20T12:12:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/mcus/arduino/</loc>
+    <lastmod>2021-04-20T12:12:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/i2c/</loc>
+    <lastmod>2021-04-20T12:12:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/i2s/</loc>
+    <lastmod>2021-04-20T12:12:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/mcu/</loc>
+    <lastmod>2021-04-20T12:12:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/mcus/</loc>
+    <lastmod>2021-04-20T12:12:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/mozzi/</loc>
+    <lastmod>2021-04-20T12:12:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/pwm/</loc>
+    <lastmod>2021-04-20T12:12:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/rcfilter/</loc>
+    <lastmod>2021-04-20T12:12:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/</loc>
+    <lastmod>2021-04-20T12:12:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soundsbrown.github.io/tags/</loc>
+    <lastmod>2021-04-20T12:12:20+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://soundsbrown.github.io/tags/atx/</loc>
     <lastmod>2021-04-10T14:43:45+02:00</lastmod>
   </url>
@@ -29,16 +84,6 @@
   
   <url>
     <loc>https://soundsbrown.github.io/tags/psu/</loc>
-    <lastmod>2021-04-10T14:43:45+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/</loc>
-    <lastmod>2021-04-10T14:43:45+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/tags/</loc>
     <lastmod>2021-04-10T14:43:45+02:00</lastmod>
   </url>
   
@@ -133,11 +178,6 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/tags/i2c/</loc>
-    <lastmod>2020-12-15T15:03:54+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://soundsbrown.github.io/tags/oled/</loc>
     <lastmod>2020-12-15T15:03:54+01:00</lastmod>
   </url>
@@ -174,11 +214,6 @@
   
   <url>
     <loc>https://soundsbrown.github.io/tags/noise/</loc>
-    <lastmod>2020-12-15T15:03:33+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/tags/pwm/</loc>
     <lastmod>2020-12-15T15:03:33+01:00</lastmod>
   </url>
   
@@ -235,11 +270,6 @@
   <url>
     <loc>https://soundsbrown.github.io/modules/40106/</loc>
     <lastmod>2020-12-15T15:03:07+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/tags/dac/</loc>
-    <lastmod>2020-12-15T15:02:59+01:00</lastmod>
   </url>
   
   <url>
@@ -334,11 +364,6 @@
   
   <url>
     <loc>https://soundsbrown.github.io/tags/ide/</loc>
-    <lastmod>2020-09-21T23:53:33+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soundsbrown.github.io/mcus/</loc>
     <lastmod>2020-09-21T23:53:33+02:00</lastmod>
   </url>
   
@@ -448,7 +473,7 @@
   </url>
   
   <url>
-    <loc>https://soundsbrown.github.io/mcus/arduino/</loc>
+    <loc>https://soundsbrown.github.io/mcus/audio/</loc>
     <lastmod>2020-09-11T12:12:20+02:00</lastmod>
   </url>
   

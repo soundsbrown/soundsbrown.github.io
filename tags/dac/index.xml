@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 15 Dec 2020 15:02:59 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 20 Apr 2021 12:12:20 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/tags/dac/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Generating audio</title>
+      <link>https://soundsbrown.github.io/mcus/arduino/</link>
+      <pubDate>Tue, 20 Apr 2021 12:12:20 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/mcus/arduino/</guid>
+      <description>Implementing a VCO using an Arduino is apparently trickier than one might expect.
+Using a DAC Neither I2C (e.g. MCP4725) nor SPI (e.g. MCP4922) are fast enough to generate audio-rate waveforms. Do not expect to achieve more than, say, 200 Hz.
+I2S I have thusfar been unable to produce any output with the I2S DAC I have and an MKRZERO. Perhaps try omitting the DAC and verify whether the I2S pins produce any signal at all.</description>
+    </item>
     
     <item>
       <title>LFO</title>

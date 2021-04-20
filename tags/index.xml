@@ -7,10 +7,73 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 10 Apr 2021 14:43:45 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 20 Apr 2021 12:12:20 +0200</lastBuildDate>
     
 	<atom:link href="https://soundsbrown.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>dac</title>
+      <link>https://soundsbrown.github.io/tags/dac/</link>
+      <pubDate>Tue, 20 Apr 2021 12:12:20 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/dac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>i2c</title>
+      <link>https://soundsbrown.github.io/tags/i2c/</link>
+      <pubDate>Tue, 20 Apr 2021 12:12:20 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/i2c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>i2s</title>
+      <link>https://soundsbrown.github.io/tags/i2s/</link>
+      <pubDate>Tue, 20 Apr 2021 12:12:20 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/i2s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mcu</title>
+      <link>https://soundsbrown.github.io/tags/mcu/</link>
+      <pubDate>Tue, 20 Apr 2021 12:12:20 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/mcu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mozzi</title>
+      <link>https://soundsbrown.github.io/tags/mozzi/</link>
+      <pubDate>Tue, 20 Apr 2021 12:12:20 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/mozzi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pwm</title>
+      <link>https://soundsbrown.github.io/tags/pwm/</link>
+      <pubDate>Tue, 20 Apr 2021 12:12:20 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/pwm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rcfilter</title>
+      <link>https://soundsbrown.github.io/tags/rcfilter/</link>
+      <pubDate>Tue, 20 Apr 2021 12:12:20 +0200</pubDate>
+      
+      <guid>https://soundsbrown.github.io/tags/rcfilter/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>atx</title>
@@ -126,69 +189,6 @@
       <pubDate>Tue, 15 Dec 2020 15:03:54 +0100</pubDate>
       
       <guid>https://soundsbrown.github.io/tags/arduino/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bpm</title>
-      <link>https://soundsbrown.github.io/tags/bpm/</link>
-      <pubDate>Tue, 15 Dec 2020 15:03:54 +0100</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/bpm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>clock</title>
-      <link>https://soundsbrown.github.io/tags/clock/</link>
-      <pubDate>Tue, 15 Dec 2020 15:03:54 +0100</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/clock/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>i2c</title>
-      <link>https://soundsbrown.github.io/tags/i2c/</link>
-      <pubDate>Tue, 15 Dec 2020 15:03:54 +0100</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/i2c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>oled</title>
-      <link>https://soundsbrown.github.io/tags/oled/</link>
-      <pubDate>Tue, 15 Dec 2020 15:03:54 +0100</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/oled/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sampler</title>
-      <link>https://soundsbrown.github.io/tags/sampler/</link>
-      <pubDate>Tue, 15 Dec 2020 15:03:48 +0100</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/sampler/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>wav</title>
-      <link>https://soundsbrown.github.io/tags/wav/</link>
-      <pubDate>Tue, 15 Dec 2020 15:03:48 +0100</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/wav/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>4017</title>
-      <link>https://soundsbrown.github.io/tags/4017/</link>
-      <pubDate>Tue, 15 Dec 2020 15:03:41 +0100</pubDate>
-      
-      <guid>https://soundsbrown.github.io/tags/4017/</guid>
       <description></description>
     </item>
     
