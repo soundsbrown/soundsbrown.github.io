@@ -8,43 +8,37 @@
 	<meta name="theme-color" content="#73573e">
 	<meta name="msapplication-TileColor" content="#73573e">
 <meta itemprop="name" content="STM32">
-<meta itemprop="description" content=" Note! The information below may be obsolete, check here:
- https://www.stm32duino.com/ https://github.com/stm32duino/wiki/wiki https://www.youtube.com/watch?v=337rDuCGeYs&amp;list=WL&amp;index=3&amp;t=124s  HW/SW setup Add to board manager URLs: http://dan.drown.org/stm32duino/package_STM32duino_index.json
-Also downloaded release from https://github.com/rogerclarkmelbourne/Arduino_STM32
-Unzipped into C:\Users\Tom\Documents\Arduino\hardware\Arduino_STM32-1.0.0
-Executed drivers/win/install_drivers.bat
-Jumpers on board are both set to 0
-Pinout ">
+<meta itemprop="description" content="PlatformIO https://docs.platformio.org/en/latest/boards/ststm32/blackpill_f103c8.html
+pio init -b blackpill_f103c8 --ide vscode
+Jumpers on board are set to 0 (closest to the USB port) and 1.
+This platformio.ini file works:
+[env:blackpill_f103c8] platform = ststm32 board = genericSTM32F103CB framework = arduino board_build.core = maple upload_protocol = dfu upload_port = COM1 board_build.mcu = stm32f103c8t6 board_build.f_cpu = 72000000L  When you get the message Searching for DFU device [1EAF:0003]... during upload, press the reset button on the board.">
 
 
 <meta itemprop="datePublished" content="2020-09-21T23:27:31&#43;02:00" />
 <meta itemprop="dateModified" content="2020-09-21T23:27:31&#43;02:00" />
-<meta itemprop="wordCount" content="39">
+<meta itemprop="wordCount" content="71">
 
 
 
 <meta itemprop="keywords" content="stm32,arduino," />
 <meta property="og:title" content="STM32" />
-<meta property="og:description" content=" Note! The information below may be obsolete, check here:
- https://www.stm32duino.com/ https://github.com/stm32duino/wiki/wiki https://www.youtube.com/watch?v=337rDuCGeYs&amp;list=WL&amp;index=3&amp;t=124s  HW/SW setup Add to board manager URLs: http://dan.drown.org/stm32duino/package_STM32duino_index.json
-Also downloaded release from https://github.com/rogerclarkmelbourne/Arduino_STM32
-Unzipped into C:\Users\Tom\Documents\Arduino\hardware\Arduino_STM32-1.0.0
-Executed drivers/win/install_drivers.bat
-Jumpers on board are both set to 0
-Pinout " />
+<meta property="og:description" content="PlatformIO https://docs.platformio.org/en/latest/boards/ststm32/blackpill_f103c8.html
+pio init -b blackpill_f103c8 --ide vscode
+Jumpers on board are set to 0 (closest to the USB port) and 1.
+This platformio.ini file works:
+[env:blackpill_f103c8] platform = ststm32 board = genericSTM32F103CB framework = arduino board_build.core = maple upload_protocol = dfu upload_port = COM1 board_build.mcu = stm32f103c8t6 board_build.f_cpu = 72000000L  When you get the message Searching for DFU device [1EAF:0003]... during upload, press the reset button on the board." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://soundsbrown.github.io/mcus/stm32/" />
 <meta property="article:published_time" content="2020-09-21T23:27:31+02:00" />
 <meta property="article:modified_time" content="2020-09-21T23:27:31+02:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="STM32"/>
-<meta name="twitter:description" content=" Note! The information below may be obsolete, check here:
- https://www.stm32duino.com/ https://github.com/stm32duino/wiki/wiki https://www.youtube.com/watch?v=337rDuCGeYs&amp;list=WL&amp;index=3&amp;t=124s  HW/SW setup Add to board manager URLs: http://dan.drown.org/stm32duino/package_STM32duino_index.json
-Also downloaded release from https://github.com/rogerclarkmelbourne/Arduino_STM32
-Unzipped into C:\Users\Tom\Documents\Arduino\hardware\Arduino_STM32-1.0.0
-Executed drivers/win/install_drivers.bat
-Jumpers on board are both set to 0
-Pinout "/>
+<meta name="twitter:description" content="PlatformIO https://docs.platformio.org/en/latest/boards/ststm32/blackpill_f103c8.html
+pio init -b blackpill_f103c8 --ide vscode
+Jumpers on board are set to 0 (closest to the USB port) and 1.
+This platformio.ini file works:
+[env:blackpill_f103c8] platform = ststm32 board = genericSTM32F103CB framework = arduino board_build.core = maple upload_protocol = dfu upload_port = COM1 board_build.mcu = stm32f103c8t6 board_build.f_cpu = 72000000L  When you get the message Searching for DFU device [1EAF:0003]... during upload, press the reset button on the board."/>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -99,31 +93,31 @@ Pinout "/>
 		<div class="content">
 			
 
-<h2 id="note">Note!<a href="#note" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<h2 id="platformio">PlatformIO<a href="#platformio" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
 
-<p>The information below may be obsolete, check here:</p>
+<p><a href="https://docs.platformio.org/en/latest/boards/ststm32/blackpill_f103c8.html">https://docs.platformio.org/en/latest/boards/ststm32/blackpill_f103c8.html</a></p>
 
-<ul>
-<li><a href="https://www.stm32duino.com/">https://www.stm32duino.com/</a></li>
-<li><a href="https://github.com/stm32duino/wiki/wiki">https://github.com/stm32duino/wiki/wiki</a></li>
-<li><a href="https://www.youtube.com/watch?v=337rDuCGeYs&amp;list=WL&amp;index=3&amp;t=124s">https://www.youtube.com/watch?v=337rDuCGeYs&amp;list=WL&amp;index=3&amp;t=124s</a></li>
-</ul>
+<p><code>pio init -b blackpill_f103c8 --ide vscode</code></p>
 
-<h2 id="hw-sw-setup">HW/SW setup<a href="#hw-sw-setup" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Jumpers on board are set to 0 (closest to the USB port) and 1.</p>
 
-<p><img src="/images/notes/stmduino.png"/></p>
+<p>This <code>platformio.ini</code> file works:</p>
 
-<p>Add to board manager URLs:
-<a href="http://dan.drown.org/stm32duino/package_STM32duino_index.json">http://dan.drown.org/stm32duino/package_STM32duino_index.json</a></p>
+<pre><code>[env:blackpill_f103c8]
+platform = ststm32
+board = genericSTM32F103CB
 
-<p>Also downloaded release from
-<a href="https://github.com/rogerclarkmelbourne/Arduino_STM32">https://github.com/rogerclarkmelbourne/Arduino_STM32</a></p>
+framework = arduino
 
-<p>Unzipped into <code>C:\Users\Tom\Documents\Arduino\hardware\Arduino_STM32-1.0.0</code></p>
+board_build.core = maple
+upload_protocol = dfu
+upload_port = COM1
 
-<p>Executed <code>drivers/win/install_drivers.bat</code></p>
+board_build.mcu = stm32f103c8t6
+board_build.f_cpu = 72000000L
+</code></pre>
 
-<p>Jumpers on board are both set to 0</p>
+<p>When you get the message <code>Searching for DFU device [1EAF:0003]...</code> during upload, press the reset button on the board.</p>
 
 <h2 id="pinout">Pinout<a href="#pinout" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
 
