@@ -1,3 +1,4 @@
-*.mp3
-*.d2
-*.md
+# Output-only repo: filled by site-tools/site_build.py from site-src.
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SoundsBrown</title>
+<meta name="description" content="Eurorack modular synth experiments">
+<link rel="icon" href="/favicon.png">
+<!-- A placeholder until the Hugo site is published; site-tools/site-build.py
+     replaces this file. The header copies .site-header from site-src/static/style.css. -->
+<style>
+@font-face { font-family: "Righteous"; font-weight: 400; font-display: swap; src: url("/fonts/righteous-400.woff2") format("woff2"); }
+@font-face { font-family: "IBM Plex Sans"; font-weight: 400; font-display: swap; src: url("/fonts/plex-sans-400.woff2") format("woff2"); }
+@font-face { font-family: "IBM Plex Sans Condensed"; font-weight: 600; font-display: swap; src: url("/fonts/plex-sans-condensed-600.woff2") format("woff2"); }
+
+:root {
+    --sb-accent: #ffa86a;
+    --sb-bg: #1d1612;
+    --sb-bg-raised: #2b221b;
+    --sb-border: #3d3027;
+    --sb-border-strong: #54443a;
+    --sb-muted: #ab9684;
+    --sb-text: #e2d4c6;
+    --sb-bright: #f7efe7;
+    --sb-hp: 16px;
+    --sb-rail-height: 20px;
+    --sb-rail-holes: radial-gradient(circle at 50% 50%, #0d0a08 0 3.6px, #6b584b 3.6px 4.6px, transparent 4.6px);
+    --sb-rail-flange: linear-gradient(
+        #6b584b 0 1px,
+        var(--sb-border-strong) 1px 3px,
+        #00000066 3px 4px,
+        var(--sb-border-strong) 4px calc(100% - 4px),
+        #00000066 calc(100% - 4px) calc(100% - 3px),
+        var(--sb-border-strong) calc(100% - 3px) calc(100% - 1px),
+        #00000088 calc(100% - 1px));
+    color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background: var(--sb-bg);
+    color: var(--sb-text);
+    font: 400 17px/1.65 "IBM Plex Sans", system-ui, sans-serif;
+}
+
+.wrap {
+    max-width: calc(56 * var(--sb-hp));
+    margin-inline: auto;
+    padding-inline: 16px;
+}
+
+.site-header {
+    padding-block: var(--sb-rail-height);
+    background:
+        var(--sb-rail-holes) calc(50% + var(--sb-hp) / 2) top / var(--sb-hp) var(--sb-rail-height) repeat-x,
+        var(--sb-rail-flange) top / 100% var(--sb-rail-height) no-repeat,
+        var(--sb-rail-holes) calc(50% + var(--sb-hp) / 2) bottom / var(--sb-hp) var(--sb-rail-height) repeat-x,
+        var(--sb-rail-flange) bottom / 100% var(--sb-rail-height) no-repeat,
+        var(--sb-bg-raised);
+}
+
+.site-header .wrap { padding-block: 20px; }
+
+h1 {
+    margin: 0;
+    color: var(--sb-bright);
+    font: 400 40px/1 "Righteous", sans-serif;
+}
+
+main { padding-block: 32px 64px; }
+
+.label {
+    margin: 0 0 12px;
+    color: var(--sb-muted);
+    font: 600 12px/1.3 "IBM Plex Sans Condensed", "Arial Narrow", sans-serif;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+ul { margin: 0; padding: 0; list-style: none; }
+
+li {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--sb-border);
+}
+
+li span { display: block; color: var(--sb-muted); }
+
+a {
+    color: var(--sb-bright);
+    text-decoration-color: var(--sb-accent);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+a:hover { color: var(--sb-accent); }
+:focus-visible { outline: 2px solid var(--sb-accent); outline-offset: 2px; }
+
+@media (max-width: 560px) {
+    h1 { font-size: 32px; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <h1>SoundsBrown</h1>
+  </div>
+</header>
+
+<main class="wrap">
+  <p class="label">Projects</p>
+  <ul>
+    <li><a href="/patchbook-web/">Patchbook Web</a>
+      <span>Turn a Patchbook patch into an SVG or PNG diagram, in your browser.</span></li>
+    <li><a href="https://github.com/soundsbrown/Patchbook">Patchbook fork</a>
+      <span>Patchbook (original Python version), extended with D2 diagram output.</span></li>
+    <li><a href="https://github.com/soundsbrown/soundsbrowse">SoundsBrowse</a>
+      <span>Lightweight audio file browser for Windows.</span></li>
+  </ul>
+</main>
+
+</body>
+</html>
